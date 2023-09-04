@@ -1,0 +1,64 @@
+.register_form {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+}
+.reg_foto > img {
+    width: 100%;
+    height: 100%;
+}
+.reg_foto {
+    height: 750px;
+    width: 60%;
+}
+.reg_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.reg_h2 {
+    font-family: "Roboto", sans-serif;
+
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.reg_text {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.reg_left_inner {
+    width: 70%;
+}
+.reg_left_inp {
+    display: flex;
+    flex-direction: column;
+}
+.reg_form_inputs {
+    height: 40px;
+    border: #eaeaea;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.reg_btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    height: 40px;
+    background-color: #f48023;
+    border: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+}
+.reg_btn:hover {
+    cursor: pointer;
+}
