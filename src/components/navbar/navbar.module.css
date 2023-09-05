@@ -36,8 +36,18 @@
     align-items: center;
     width: 150px;
 }
-
 .login__btn {
     color: #1682fd;
     background: #eaeaea;
+}
+.add_question_btn {
+    background-color: #f48023;
+    color: white;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.askIcon {
+    width: 20px;
+    filter: invert(100%);
 }
