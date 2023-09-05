@@ -24,6 +24,7 @@
 .main__block p {
     font-size: 18px;
     margin-left: 10px;
+    font-family: "Roboto", sans-serif;
 }
 .main__block p:first-child {
     margin-left: 0px;

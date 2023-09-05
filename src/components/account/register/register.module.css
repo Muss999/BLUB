@@ -9,8 +9,7 @@
     height: 100%;
 }
 .reg_foto {
-    height: 750px;
-    width: 60%;
+    height: 90vh;
 }
 .reg_left {
     display: flex;
