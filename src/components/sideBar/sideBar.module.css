@@ -1,0 +1,52 @@
+.sideBar {
+    width: 15%;
+    box-shadow: 1px 1px 1px rgb(203, 203, 203);
+    height: 100vh;
+    background-color: white;
+}
+.input__block {
+    width: 100%;
+    display: flex;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    align-items: center;
+    border: 1px solid rgb(178, 178, 178);
+}
+.top__block {
+    padding: 30px;
+}
+.input__block input {
+    outline: 0;
+    outline-offset: 0;
+    border: none;
+}
+.main__block p {
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.main__block p:first-child {
+    margin-left: 0px;
+    padding-left: 30px;
+}
+.sideBar__img {
+    width: 20px;
+    height: 20px;
+}
+
+.sideBar_left_block {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    transition: 0.5s;
+    justify-content: center;
+}
+.sideBar_left_block:hover {
+    width: calc(100% - 10px);
+    cursor: pointer;
+    border-left: 10px solid #f48023;
+    transition: 0.5s;
+    background: #f4812316;
+}
