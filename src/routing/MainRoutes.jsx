@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import RegisterPage from "../pages/RegisterPage";
 import LoginPage from "../pages/LoginPage";
+import QuestionsPage from "../pages/QuestionsPage";
 
 const MainRoutes = () => {
     const ROUTES = [
@@ -14,6 +15,11 @@ const MainRoutes = () => {
             id: 2,
             path: "/login",
             element: <LoginPage />,
+        },
+        {
+            id: 3,
+            path: "/",
+            element: <QuestionsPage />,
         },
     ];
 
