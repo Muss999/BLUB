@@ -5,10 +5,7 @@ import { ACCOUNT_API } from "../../helpers/consts";
 export const registerUser = createAsyncThunk(
     "user/registerUser",
     async ({ user, navigate }) => {
-        let formData = new FormData();
-        formData.append("username", user.username);
-        formData.append("password", user.password);
-        let res = await axios.post(`${ACCOUNT_API}/register/`, formData);
+        let res = await axios.post(`${ACCOUNT_API}`, user);
         return { res, navigate };
     }
 );
@@ -16,10 +13,10 @@ export const registerUser = createAsyncThunk(
 export const loginUser = createAsyncThunk(
     "user/loginUser",
     async ({ user, navigate }) => {
-        let formData = new FormData();
-        formData.append("username", user.username);
-        formData.append("password", user.password);
-        let res = await axios.post(`${ACCOUNT_API}/api/token/`, formData);
-        return { res, navigate, user: user.username };
+        let res = await axios.get(`${ACCOUNT_API}`);
+        let filteredUser = res.data.filter(
+            (userDB) => userDB.username == user.username
+        );
+        return { filteredUser, navigate, filteredUser: filteredUser[0] };
     }
 );

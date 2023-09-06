@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { registerUser, loginUser } from "./userActions";
-import { addDataToLocalStorage, updateToken } from "../../helpers/functions";
+import { addDataToLocalStorage } from "../../helpers/functions";
+import { act } from "react-dom/test-utils";
 
 const userSlice = createSlice({
     name: "user",
@@ -19,33 +20,27 @@ const userSlice = createSlice({
     },
     extraReducers: (builder) => {
         builder
-            .addCase(registerUser.pending, (state) => {
-                state.loading = true;
-            })
             .addCase(registerUser.fulfilled, (state, action) => {
                 state.loading = false;
                 action.payload.navigate("/login");
-            })
-            .addCase(registerUser.rejected, (state) => {
-                state.loading = false;
-                state.status = "wrong";
             })
             .addCase(loginUser.pending, (state) => {
                 state.loading = true;
             })
             .addCase(loginUser.fulfilled, (state, action) => {
-                state.loading = false;
-                state.user = action.payload.user;
-                addDataToLocalStorage(
-                    action.payload.user,
-                    action.payload.res.data
-                );
-                updateToken();
-                action.payload.navigate("/");
+                if (action.payload.filteredUser == undefined) {
+                    state.loading = false;
+                    state.status = "wrong";
+                } else {
+                    state.loading = false;
+                    state.user = action.payload.filteredUser;
+                    addDataToLocalStorage(action.payload.filteredUser.username);
+                    action.payload.navigate("/");
+                }
             })
             .addCase(loginUser.rejected, (state) => {
                 state.loading = false;
-                state.status = "error";
+                state.status = "wrong";
             });
     },
 });
