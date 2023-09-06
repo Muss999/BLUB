@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import RegisterPage from "../pages/RegisterPage";
 import LoginPage from "../pages/LoginPage";
 import QuestionsPage from "../pages/QuestionsPage";
+import PostCreatePage from "../pages/PostCreatePage";
 
 const MainRoutes = () => {
     const ROUTES = [
@@ -20,6 +21,11 @@ const MainRoutes = () => {
             id: 3,
             path: "/",
             element: <QuestionsPage />,
+        },
+        {
+            id: 4,
+            path: "/post-create",
+            element: <PostCreatePage />,
         },
     ];
 

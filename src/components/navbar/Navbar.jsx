@@ -13,7 +13,8 @@ const Navbar = () => {
             <div className={styles.navBar}>
                 <div
                     className={styles.left__block}
-                    onClick={() => navigate("/")}>
+                    onClick={() => navigate("/")}
+                >
                     <img src={logo} width="40%" alt="" />
                 </div>
                 <div className={styles.right__block}>
@@ -24,13 +25,14 @@ const Navbar = () => {
                                 alt=""
                                 className={styles.askIcon}
                             />
-                            ask question
+                            Ask question
                         </button>
                     ) : (
                         <>
                             <button
                                 className={styles.register__btn}
-                                onClick={() => navigate("/register")}>
+                                onClick={() => navigate("/register")}
+                            >
                                 <img
                                     src={userPluce}
                                     alt=""
@@ -40,7 +42,8 @@ const Navbar = () => {
                             </button>
                             <button
                                 className={styles.login__btn}
-                                onClick={() => navigate("/login")}>
+                                onClick={() => navigate("/login")}
+                            >
                                 login
                             </button>
                         </>

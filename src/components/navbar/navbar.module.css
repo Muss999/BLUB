@@ -46,6 +46,7 @@
     width: 200px;
     display: flex;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 .askIcon {
     width: 20px;
