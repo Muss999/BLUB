@@ -33,8 +33,12 @@ const userSlice = createSlice({
                 } else {
                     state.loading = false;
                     state.user = action.payload.filteredUser;
-                    addDataToLocalStorage(action.payload.filteredUser.username);
+                    addDataToLocalStorage(
+                        action.payload.filteredUser.username,
+                        action.payload.filteredUser.avatarImg
+                    );
                     action.payload.navigate("/");
+                    console.log(state.user);
                 }
             })
             .addCase(loginUser.rejected, (state) => {

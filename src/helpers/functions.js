@@ -1,8 +1,8 @@
 import axios from "axios";
 import { ACCOUNT_API } from "./consts";
 
-export const addDataToLocalStorage = (user) => {
-    localStorage.setItem("user", JSON.stringify(user));
+export const addDataToLocalStorage = (username, avatarImg) => {
+    localStorage.setItem("user", JSON.stringify({ username, avatarImg }));
 };
 
 export const logout = () => {

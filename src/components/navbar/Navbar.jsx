@@ -11,19 +11,21 @@ import profileFoto from "./img/profile-pic.png";
 const Navbar = () => {
     const navigate = useNavigate();
     let user = localStorage.getItem("user");
+    console.log(user);
     return (
         <>
             <div className={styles.navBar}>
                 <div
                     className={styles.left__block}
-                    onClick={() => navigate("/")}
-                >
+                    onClick={() => navigate("/")}>
                     <img src={logo} width="40%" alt="" />
                 </div>
                 <div className={styles.right__block}>
                     {user ? (
                         <>
-                            <button className={styles.add_question_btn}>
+                            <button
+                                className={styles.add_question_btn}
+                                onClick={() => navigate("/post-create")}>
                                 <img
                                     src={askQuestion}
                                     alt=""
@@ -38,15 +40,14 @@ const Navbar = () => {
                                 <img src={notificationFalse} alt="" />
                             </div>
                             <div className={styles.profileFoto}>
-                                <img src={profileFoto} alt="profile-foto" />
+                                <img src={user.avatarImg} alt="profile-foto" />
                             </div>
                         </>
                     ) : (
                         <>
                             <button
                                 className={styles.register__btn}
-                                onClick={() => navigate("/register")}
-                            >
+                                onClick={() => navigate("/register")}>
                                 <img
                                     src={userPluce}
                                     alt=""
@@ -56,8 +57,7 @@ const Navbar = () => {
                             </button>
                             <button
                                 className={styles.login__btn}
-                                onClick={() => navigate("/login")}
-                            >
+                                onClick={() => navigate("/login")}>
                                 login
                             </button>
                         </>
