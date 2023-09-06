@@ -1,33 +1,33 @@
 {
-  "users": [
-    {
-      "username": "asdfaaa2345678",
-      "password": "asdf",
-      "avatarImg": "f",
-      "subscribers": 0,
-      "id": 1
-    },
-    {
-      "username": "asd",
-      "password": "asdf",
-      "avatarImg": "f",
-      "subscribers": 0,
-      "id": 2
-    },
-    {
-      "username": "aa",
-      "password": "a",
-      "avatarImg": "a",
-      "subscribers": 0,
-      "id": 3
-    },
-    {
-      "username": "a",
-      "password": "a",
-      "avatarImg": "a",
-      "subscribers": 0,
-      "id": 4
-    }
-  ],
-  "posts": []
+    "users": [
+        {
+            "username": "asdfaaa2345678",
+            "password": "asdf",
+            "avatarImg": "f",
+            "subscribers": 0,
+            "id": 1
+        },
+        {
+            "username": "asd",
+            "password": "asdf",
+            "avatarImg": "f",
+            "subscribers": 0,
+            "id": 2
+        },
+        {
+            "username": "aa",
+            "password": "a",
+            "avatarImg": "a",
+            "subscribers": 0,
+            "id": 3
+        },
+        {
+            "username": "a",
+            "password": "a",
+            "avatarImg": "a",
+            "subscribers": 0,
+            "id": 4
+        }
+    ],
+    "posts": []
 }
