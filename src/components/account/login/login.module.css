@@ -61,3 +61,43 @@
 .log_btn:hover {
     cursor: pointer;
 }
+
+/* ADAPtIVE */
+@media all and (max-width: 1100px) {
+    .log_foto {
+        height: 650px;
+    }
+}
+@media all and (max-width: 900px) {
+    .log_foto {
+        height: 550px;
+    }
+}
+@media all and (max-width: 757px) {
+    .log_foto {
+        display: none;
+    }
+    .log_left_inner {
+        width: 80%;
+    }
+    .log_left {
+        width: 70%;
+    }
+    .login_form {
+        margin-top: 60px;
+    }
+}
+@media all and (max-width: 445px) {
+    .log_foto {
+        display: none;
+    }
+    .log_left_inner {
+        width: 80%;
+    }
+    .log_left {
+        width: 80%;
+    }
+    .login_form {
+        margin-top: 60px;
+    }
+}
