@@ -1,3 +1,23 @@
 {
-    "posts": []
+  "users": [
+    {
+      "username": "ad",
+      "password": "asd",
+      "avatarImg": "as",
+      "id": 1
+    },
+    {
+      "username": "Musi",
+      "password": "123",
+      "avatarImg": "https://thumbs.dreamstime.com/b/flat-male-avatar-image-beard-hairstyle-businessman-profile-icon-vector-179285629.jpg",
+      "id": 2
+    },
+    {
+      "username": "ads",
+      "password": "fd",
+      "avatarImg": "e",
+      "id": 3
+    }
+  ],
+  "posts": []
 }
