@@ -12,6 +12,7 @@ const Register = () => {
         username: "",
         password: "",
         avatarImg: "",
+        subscribers: 0,
     });
 
     const navigate = useNavigate();
@@ -66,14 +67,14 @@ const Register = () => {
                         />
                         <button
                             className={styles.reg_btn}
-                            onClick={() =>
+                            onClick={() => {
                                 dispatch(
                                     registerUser({
                                         user,
-                                        navigate,
                                     })
-                                )
-                            }
+                                );
+                                navigate("/");
+                            }}
                         >
                             Register
                         </button>
