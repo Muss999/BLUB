@@ -61,3 +61,33 @@
 .reg_btn:hover {
     cursor: pointer;
 }
+
+/* ADAPTIVE */
+@media all and (max-width: 757px) {
+    .reg_foto {
+        display: none;
+    }
+    .reg_left_inner {
+        width: 80%;
+    }
+    .reg_left {
+        width: 70%;
+    }
+    .register_form {
+        margin-top: 60px;
+    }
+}
+@media all and (max-width: 445px) {
+    .reg_foto {
+        display: none;
+    }
+    .reg_left_inner {
+        width: 80%;
+    }
+    .reg_left {
+        width: 80%;
+    }
+    .register_form {
+        margin-top: 60px;
+    }
+}

@@ -22,7 +22,6 @@ const userSlice = createSlice({
         builder
             .addCase(registerUser.fulfilled, (state, action) => {
                 state.loading = false;
-                action.payload.navigate("/login");
             })
             .addCase(loginUser.pending, (state) => {
                 state.loading = true;
