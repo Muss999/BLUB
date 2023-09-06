@@ -18,7 +18,7 @@ export const getOnePost = createAsyncThunk(
 export const createPost = createAsyncThunk(
     "posts/createPost",
     async (newPostObj, { dispatch }) => {
-        let res = await axios.post(POSTS_API, newPostObj);
+        await axios.post(POSTS_API, newPostObj);
         dispatch(getPosts);
     }
 );

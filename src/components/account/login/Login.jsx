@@ -40,8 +40,7 @@ const Login = () => {
                                         <button
                                             onClick={() =>
                                                 dispatch(clearStatusState())
-                                            }
-                                        >
+                                            }>
                                             Try Again!
                                         </button>
                                     </div>
@@ -98,8 +97,7 @@ const Login = () => {
                                                             navigate,
                                                         })
                                                     )
-                                                }
-                                            >
+                                                }>
                                                 Login
                                             </button>
                                         </div>
