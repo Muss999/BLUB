@@ -1,14 +1,60 @@
 {
-    "user": [],
+    "users": [
+        {
+            "username": "ad",
+            "password": "asd",
+            "avatarImg": "as",
+            "id": 1
+        },
+        {
+            "username": "Musi",
+            "password": "123",
+            "avatarImg": "https://thumbs.dreamstime.com/b/flat-male-avatar-image-beard-hairstyle-businessman-profile-icon-vector-179285629.jpg",
+            "id": 2
+        },
+        {
+            "username": "ads",
+            "password": "fd",
+            "avatarImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE5fPhctwNLodS9VmAniEw_UiLWHgKs0fs1w&usqp=CAU",
+            "id": 3
+        }
+    ],
     "posts": [
         {
-            "author": {},
-            "postQuestion": "a",
+            "author": {
+                "username": "ads",
+                "avatarImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE5fPhctwNLodS9VmAniEw_UiLWHgKs0fs1w&usqp=CAU"
+            },
+            "postQuestion": "asd",
             "comments": [],
-            "description": "a",
+            "description": "asd",
             "likes": 0,
             "commentsCount": 0,
             "id": 1
+        },
+        {
+            "author": {
+                "username": "ads",
+                "avatarImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE5fPhctwNLodS9VmAniEw_UiLWHgKs0fs1w&usqp=CAU"
+            },
+            "postQuestion": "csa",
+            "comments": [],
+            "description": "csa",
+            "likes": 0,
+            "commentsCount": 0,
+            "id": 2
+        },
+        {
+            "author": {
+                "username": "ads",
+                "avatarImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE5fPhctwNLodS9VmAniEw_UiLWHgKs0fs1w&usqp=CAU"
+            },
+            "postQuestion": "csa",
+            "comments": [],
+            "description": "csa",
+            "likes": 0,
+            "commentsCount": 0,
+            "id": 3
         }
     ]
 }

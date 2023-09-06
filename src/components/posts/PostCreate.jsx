@@ -7,8 +7,7 @@ const PostCreate = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
-    const { user } = useSelector((state) => state.user);
-    console.log(user);
+    const user = JSON.parse(localStorage.getItem("user"));
 
     const [postObj, setpostObj] = useState({
         author: {

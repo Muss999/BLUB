@@ -4,6 +4,7 @@ import { POSTS_API } from "../../helpers/consts";
 
 export const getPosts = createAsyncThunk("posts/getPosts", async () => {
     let res = await axios.get(`${POSTS_API}`);
+    // console.log(res);
     return res;
 });
 
