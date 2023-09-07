@@ -7,10 +7,16 @@ const postsSlice = createSlice({
         loading: false,
         posts: [],
         onePost: null,
+        search: "",
+        currentPage: 1,
     },
     reducers: {
         clearOnePostState: (state) => {
             state.onePost = null;
+        },
+        changeSearchVal: (state, action) => {
+            state.search = action.payload.search;
+            state.currentPage = 1;
         },
     },
     extraReducers: (builder) => {
@@ -21,6 +27,7 @@ const postsSlice = createSlice({
             .addCase(getPosts.fulfilled, (state, action) => {
                 state.loading = false;
                 state.posts = action.payload.data;
+                console.log(action.payload.data);
             })
             .addCase(getPosts.rejected, (state) => {
                 state.loading = false;
@@ -38,6 +45,6 @@ const postsSlice = createSlice({
     },
 });
 
-export const { clearOnePostState } = postsSlice.actions;
+export const { clearOnePostState, changeSearchVal } = postsSlice.actions;
 
 export default postsSlice.reducer;

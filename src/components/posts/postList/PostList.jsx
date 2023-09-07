@@ -12,7 +12,6 @@ const PostList = () => {
     }, []);
 
     const posts = useSelector((state) => state.posts);
-
     let a = posts.posts;
 
     return (

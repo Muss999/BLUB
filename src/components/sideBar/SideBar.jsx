@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import styles from "./sideBar.module.css";
 import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { getPosts } from "../../store/posts/postActions";
+import { changeSearchVal } from "../../store/posts/postSlice";
 
 // img start
 import rankIcon from "./img/images-removebg-preview.png";
@@ -12,12 +15,28 @@ import questionIcon from "./img/list-47-removebg-preview.png";
 
 const SideBar = () => {
     const navigate = useNavigate();
+    const dispatch = useDispatch();
+
+    const [search, setSearch] = useState("");
+
+    useEffect(() => {
+        dispatch(getPosts());
+    }, []);
+
+    useEffect(() => {
+        dispatch(changeSearchVal({ search }));
+        dispatch(getPosts());
+    }, [search]);
     return (
         <div className={styles.sideBar}>
             <div className={styles.top__block}>
                 <div className={styles.input__block}>
                     <img src={searchIcon} alt="" width="20px" />
-                    <input type="text" placeholder="Search" />
+                    <input
+                        onChange={(e) => setSearch(e.target.value)}
+                        type="text"
+                        placeholder="Search"
+                    />
                 </div>
             </div>
 
@@ -25,7 +44,8 @@ const SideBar = () => {
                 <p style={{ color: "grey" }}>menu</p>
                 <div
                     className={styles.sideBar_left_block}
-                    onClick={() => navigate("/")}>
+                    onClick={() => navigate("/")}
+                >
                     <img
                         src={questionIcon}
                         alt=""
