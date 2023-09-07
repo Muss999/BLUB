@@ -36,5 +36,61 @@
       "id": 5
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "author": {
+        "0": "a"
+      },
+      "postQuestion": "ldsjf",
+      "comments": [],
+      "description": "kk",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 1
+    },
+    {
+      "author": {
+        "0": "a"
+      },
+      "postQuestion": "ldsjf",
+      "comments": [],
+      "description": "kk",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 2
+    },
+    {
+      "author": {
+        "0": "a"
+      },
+      "postQuestion": "zczz",
+      "comments": [],
+      "description": "zz",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 3
+    },
+    {
+      "author": {
+        "0": "a"
+      },
+      "postQuestion": "ieid",
+      "comments": [],
+      "description": "d",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 4
+    },
+    {
+      "author": {
+        "0": "a"
+      },
+      "postQuestion": "musi228",
+      "comments": [],
+      "description": "sadjf",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 5
+    }
+  ]
 }
