@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { getOnePost, getPosts } from "./postActions";
+import { act } from "react-dom/test-utils";
 
 const postsSlice = createSlice({
     name: "posts",
@@ -9,6 +10,7 @@ const postsSlice = createSlice({
         onePost: null,
         search: "",
         currentPage: 1,
+        totalPages: 1,
     },
     reducers: {
         clearOnePostState: (state) => {
@@ -18,6 +20,9 @@ const postsSlice = createSlice({
             state.search = action.payload.search;
             state.currentPage = 1;
         },
+        changePage: (state, action) => {
+            state.currentPage = action.payload.page;
+        },
     },
     extraReducers: (builder) => {
         builder
@@ -26,8 +31,8 @@ const postsSlice = createSlice({
             })
             .addCase(getPosts.fulfilled, (state, action) => {
                 state.loading = false;
-                state.posts = action.payload.data;
-                console.log(action.payload.data);
+                state.posts = action.payload.res.data;
+                state.totalPages = action.payload.totalPages;
             })
             .addCase(getPosts.rejected, (state) => {
                 state.loading = false;
@@ -45,6 +50,7 @@ const postsSlice = createSlice({
     },
 });
 
-export const { clearOnePostState, changeSearchVal } = postsSlice.actions;
+export const { clearOnePostState, changeSearchVal, changePage } =
+    postsSlice.actions;
 
 export default postsSlice.reducer;
