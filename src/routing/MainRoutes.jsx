@@ -4,6 +4,7 @@ import RegisterPage from "../pages/RegisterPage";
 import LoginPage from "../pages/LoginPage";
 import QuestionsPage from "../pages/QuestionsPage";
 import PostCreatePage from "../pages/PostCreatePage";
+import PostDetailsPage from "../pages/PostDetailsPage";
 
 const MainRoutes = () => {
     const ROUTES = [
@@ -26,6 +27,11 @@ const MainRoutes = () => {
             id: 4,
             path: "/post-create",
             element: <PostCreatePage />,
+        },
+        {
+            id: 5,
+            path: "/post-details/:id",
+            element: <PostDetailsPage />,
         },
     ];
 

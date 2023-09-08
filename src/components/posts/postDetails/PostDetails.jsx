@@ -1,9 +1,23 @@
-import React from "react";
-import styles from "./postItem.module.css";
+import React, { useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { getPosts } from "../../../store/posts/postActions";
+import { useDispatch, useSelector } from "react-redux";
+import styles from "./postDetails.module.css";
 import { useNavigate } from "react-router-dom";
 
-const PostItem = ({ item }) => {
-    let navigate = useNavigate();
+const PostDetails = () => {
+    let { id } = useParams();
+
+    const navigate = useNavigate();
+
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getPosts());
+    }, []);
+
+    const { posts } = useSelector((state) => state.posts);
+    let postObj = posts.find((item) => item.id == id);
 
     return (
         <>
@@ -13,11 +27,11 @@ const PostItem = ({ item }) => {
                         <div className={styles.user__left__block}>
                             <img
                                 className={styles.user__img}
-                                src={item.author.avatarImg}
+                                src={postObj.author.avatarImg}
                                 alt=""
                             />
                             <h5 className={styles.username}>
-                                {item.author.username}
+                                {postObj.author.username}
                             </h5>
                         </div>
                     </div>
@@ -29,22 +43,21 @@ const PostItem = ({ item }) => {
 
                 <div className={styles.center__main__block}>
                     <div className={styles.main__block}>
-                        <h2>{item.postQuestion}</h2>
-                        <p>{item.category}</p>
+                        <h2>{postObj.postQuestion}</h2>
+                        <p>{postObj.category}</p>
+                        <p>{postObj.description}</p>
                     </div>
                     <div className={styles.bottom__part}>
                         <div className={styles.btns}>
                             <button
                                 className={styles.to__desc__btn}
-                                onClick={() =>
-                                    navigate(`/post-details/${item.id}`)
-                                }>
-                                Learn answers
+                                onClick={() => navigate(`/`)}>
+                                back to posts
                             </button>
                         </div>
                         <div className={styles.couter__block}>
-                            <p>{item.likes}</p>
-                            <p>{item.commentsCount}</p>
+                            <p>{postObj.likes}</p>
+                            <p>{postObj.commentsCount}</p>
                         </div>
                     </div>
                 </div>
@@ -53,8 +66,4 @@ const PostItem = ({ item }) => {
     );
 };
 
-export default PostItem;
-
-// let a = post.find(item => item.id === userid)
-
-// let d  = a.commentsCount = a.comments.reducer(a,b => {a+b},0)
+export default PostDetails;

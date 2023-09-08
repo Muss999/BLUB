@@ -7,10 +7,16 @@ const postsSlice = createSlice({
         loading: false,
         posts: [],
         onePost: null,
+        search: "",
+        currentPage: 1,
     },
     reducers: {
         clearOnePostState: (state) => {
             state.onePost = null;
+        },
+        changeSearchVal: (state, action) => {
+            state.search = action.payload.search;
+            state.currentPage = 1;
         },
     },
     extraReducers: (builder) => {
@@ -38,6 +44,6 @@ const postsSlice = createSlice({
     },
 });
 
-export const { clearOnePostState } = postsSlice.actions;
+export const { clearOnePostState, changeSearchVal } = postsSlice.actions;
 
 export default postsSlice.reducer;

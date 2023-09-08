@@ -31,3 +31,8 @@ export const loginUser = createAsyncThunk(
         return { filteredUser, navigate, filteredUser: filteredUser[0] };
     }
 );
+
+export const getUser = createAsyncThunk("user/getUser", async () => {
+    let res = await axios.get(ACCOUNT_API);
+    return res;
+});
