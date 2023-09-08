@@ -14,6 +14,7 @@ const PostList = () => {
 
     const posts = useSelector((state) => state.posts);
     const { loading } = useSelector((state) => state.posts);
+
     let a = posts.posts;
     return (
         <>
