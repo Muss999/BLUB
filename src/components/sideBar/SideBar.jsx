@@ -33,6 +33,7 @@ const SideBar = () => {
                 <div className={styles.input__block}>
                     <img src={searchIcon} alt="" width="20px" />
                     <input
+                        className={styles.search_input}
                         onChange={(e) => setSearch(e.target.value)}
                         type="text"
                         placeholder="Search"

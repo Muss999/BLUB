@@ -1,39 +1,12 @@
 {
   "users": [
     {
-      "username": "asdfaaa2345678",
-      "password": "asdf",
-      "avatarImg": "f",
+      "username": "musi",
+      "password": "123",
+      "avatarImg": "ff",
       "subscribers": 0,
+      "isPremium": false,
       "id": 1
-    },
-    {
-      "username": "asd",
-      "password": "asdf",
-      "avatarImg": "f",
-      "subscribers": 0,
-      "id": 2
-    },
-    {
-      "username": "aa",
-      "password": "a",
-      "avatarImg": "a",
-      "subscribers": 0,
-      "id": 3
-    },
-    {
-      "username": "a",
-      "password": "a",
-      "avatarImg": "a",
-      "subscribers": 0,
-      "id": 4
-    },
-    {
-      "username": "v",
-      "password": "v",
-      "avatarImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4UUQMYsxMUWE5m8zzN6ny_j_Dfsw38gsk-w&usqp=CAU",
-      "subscribers": 0,
-      "id": 5
     }
   ],
   "posts": [

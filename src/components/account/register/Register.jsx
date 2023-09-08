@@ -13,6 +13,7 @@ const Register = () => {
         password: "",
         avatarImg: "",
         subscribers: 0,
+        isPremium: false,
     });
 
     const navigate = useNavigate();

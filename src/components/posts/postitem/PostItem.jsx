@@ -38,7 +38,8 @@ const PostItem = ({ item }) => {
                                 className={styles.to__desc__btn}
                                 onClick={() =>
                                     navigate(`/post-details/${item.id}`)
-                                }>
+                                }
+                            >
                                 Learn answers
                             </button>
                         </div>

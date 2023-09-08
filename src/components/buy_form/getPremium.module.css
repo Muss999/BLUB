@@ -1,0 +1,46 @@
+.main_div {
+    margin-top: 70px;
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    font-family: roboto;
+}
+.main_div_inner {
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px 0px gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.buy_h1 {
+    margin: 20px;
+    font-size: 40px;
+}
+.buy_desc {
+    line-height: 30px;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+}
+.div_buy {
+    background-color: #f48023;
+    width: 50%;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    border: transparent;
+}
+.div_buy > p {
+    margin-top: 5px;
+    font-size: 22px;
+    color: white;
+}
+.div_buy:hover {
+    cursor: pointer;
+}
