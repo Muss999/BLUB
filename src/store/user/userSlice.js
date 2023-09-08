@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { registerUser, loginUser } from "./userActions";
 import { addDataToLocalStorage } from "../../helpers/functions";
+import { getUser } from "./userActions";
 import { act } from "react-dom/test-utils";
 
 const userSlice = createSlice({
@@ -44,6 +45,10 @@ const userSlice = createSlice({
             .addCase(loginUser.rejected, (state) => {
                 state.loading = false;
                 state.status = "wrong";
+            })
+            .addCase(getUser.fulfilled, (state, action) => {
+                state.loading = false;
+                state.user = action.payload.data;
             });
     },
 });

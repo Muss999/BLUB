@@ -1,5 +1,5 @@
 import React from "react";
-import PostCreate from "../components/posts/PostCreate";
+import PostCreate from "../components/posts/postCreate/PostCreate";
 import SideBar from "../components/sideBar/SideBar";
 
 const PostCreatePage = () => {

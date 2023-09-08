@@ -31,6 +31,7 @@ const postsSlice = createSlice({
             })
             .addCase(getPosts.fulfilled, (state, action) => {
                 state.loading = false;
+
                 state.posts = action.payload.res.data;
                 state.totalPages = action.payload.totalPages;
             })

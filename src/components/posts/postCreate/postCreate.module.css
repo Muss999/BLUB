@@ -1,0 +1,57 @@
+.add__post__block {
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.main__add_block {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.input__block {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.desc_input {
+    width: 100%;
+    height: 150px; /* Высота инпута по вашему выбору */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    resize: vertical; /* Позволяет изменять размеры вертикально */
+}
+input {
+    margin-bottom: 15px;
+    color: black;
+}
+.post__btn {
+    width: 15%;
+    background-color: #f48023;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}

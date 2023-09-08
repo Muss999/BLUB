@@ -39,223 +39,289 @@
   "posts": [
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "ldsjf",
+      "postQuestion": "sacascasasc",
+      "category": "csacsacacacsac",
       "comments": [],
-      "description": "kk",
+      "description": "acascascascsccsacasccsacsaca",
       "likes": 0,
       "commentsCount": 0,
       "id": 1
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "ldsjf",
+      "postQuestion": "adscasdcasdc",
+      "category": "cacacacacadscasc",
       "comments": [],
-      "description": "kk",
+      "description": "cascdascadscdsaa",
       "likes": 0,
       "commentsCount": 0,
       "id": 2
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "zczz",
+      "postQuestion": "adscasdcasdc",
+      "category": "cacacacacadscasc",
       "comments": [],
-      "description": "zz",
+      "description": "cascdascadscdsaa",
       "likes": 0,
       "commentsCount": 0,
       "id": 3
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "ieid",
+      "postQuestion": "adscasdcasdc",
+      "category": "cacacacacadscasc",
       "comments": [],
-      "description": "d",
+      "description": "cascdascadscdsaa",
       "likes": 0,
       "commentsCount": 0,
       "id": 4
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "musi228",
+      "postQuestion": "adscasdcasdc",
+      "category": "cacacacacadscasc",
       "comments": [],
-      "description": "sadjf",
+      "description": "cascdascadscdsaa",
       "likes": 0,
       "commentsCount": 0,
       "id": 5
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "adscasdcasdc",
+      "category": "cacacacacadscasc",
       "comments": [],
-      "description": "a",
+      "description": "cascdascadscdsaa",
       "likes": 0,
       "commentsCount": 0,
       "id": 6
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "adscasdcasdc",
+      "category": "cacacacacadscasc",
       "comments": [],
-      "description": "a",
+      "description": "cascdascadscdsaa",
       "likes": 0,
       "commentsCount": 0,
       "id": 7
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "adscasdcasdc",
+      "category": "cacacacacadscasc",
       "comments": [],
-      "description": "a",
+      "description": "cascdascadscdsaa",
       "likes": 0,
       "commentsCount": 0,
       "id": 8
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "adscasdcasdc",
+      "category": "cacacacacadscasc",
       "comments": [],
-      "description": "a",
+      "description": "cascdascadscdsaa",
       "likes": 0,
       "commentsCount": 0,
       "id": 9
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "adscasdcasdc",
+      "category": "cacacacacadscasc",
       "comments": [],
-      "description": "a",
+      "description": "cascdascadscdsaa",
       "likes": 0,
       "commentsCount": 0,
       "id": 10
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "vdsavasvd",
+      "category": "vdsvdasva",
       "comments": [],
-      "description": "a",
+      "description": "vdsvas",
       "likes": 0,
       "commentsCount": 0,
       "id": 11
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "vdsavasvd",
+      "category": "vdsvdasva",
       "comments": [],
-      "description": "a",
+      "description": "vdsvas",
       "likes": 0,
       "commentsCount": 0,
       "id": 12
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "vdsavasvd",
+      "category": "vdsvdasva",
       "comments": [],
-      "description": "a",
+      "description": "vdsvas",
       "likes": 0,
       "commentsCount": 0,
       "id": 13
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "vdsavasvd",
+      "category": "vdsvdasva",
       "comments": [],
-      "description": "a",
+      "description": "vdsvas",
       "likes": 0,
       "commentsCount": 0,
       "id": 14
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "vdsavasvd",
+      "category": "vdsvdasva",
       "comments": [],
-      "description": "a",
+      "description": "vdsvas",
       "likes": 0,
       "commentsCount": 0,
       "id": 15
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "vdsavasvd",
+      "category": "vdsvdasva",
       "comments": [],
-      "description": "a",
+      "description": "vdsvas",
       "likes": 0,
       "commentsCount": 0,
       "id": 16
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "vdsavasvd",
+      "category": "vdsvdasva",
       "comments": [],
-      "description": "a",
+      "description": "vdsvas",
       "likes": 0,
       "commentsCount": 0,
       "id": 17
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "a",
+      "postQuestion": "vdsavasvd",
+      "category": "vdsvdasva",
       "comments": [],
-      "description": "a",
+      "description": "vdsvas",
       "likes": 0,
       "commentsCount": 0,
       "id": 18
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "qwert",
+      "postQuestion": "vdsavasvd",
+      "category": "vdsvdasva",
       "comments": [],
-      "description": "qewrt",
+      "description": "vdsvas",
       "likes": 0,
       "commentsCount": 0,
       "id": 19
     },
     {
       "author": {
-        "0": "a"
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
       },
-      "postQuestion": "qwert",
+      "postQuestion": "vdsavasvd",
+      "category": "vdsvdasva",
       "comments": [],
-      "description": "qewrt",
+      "description": "vdsvas",
       "likes": 0,
       "commentsCount": 0,
       "id": 20
+    },
+    {
+      "author": {
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
+      },
+      "postQuestion": "arzy",
+      "category": "arzy",
+      "comments": [],
+      "description": "dfghjk",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 21
+    },
+    {
+      "author": {
+        "username": "asdfaaa2345678",
+        "avatarImg": "f"
+      },
+      "postQuestion": "arzy",
+      "category": "arzy",
+      "comments": [],
+      "description": "dfghjk",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 22
     }
   ]
 }
