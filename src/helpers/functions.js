@@ -1,8 +1,17 @@
 import axios from "axios";
-import { ACCOUNT_API } from "./consts";
 
-export const addDataToLocalStorage = (username, avatarImg) => {
-    localStorage.setItem("user", JSON.stringify({ username, avatarImg }));
+export const addDataToLocalStorage = (username, avatarImg, isPremium) => {
+    localStorage.setItem(
+        "user",
+        JSON.stringify({ username, avatarImg, isPremium })
+    );
+};
+
+export const getPremiumFunc = async () => {
+    let a = JSON.parse(localStorage.getItem("user"));
+
+    let b = { ...a, isPremium: true };
+    localStorage.setItem("user", JSON.stringify(b));
 };
 
 export const logout = () => {

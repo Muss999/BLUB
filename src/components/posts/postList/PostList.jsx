@@ -3,7 +3,6 @@ import PostItem from "../postitem/PostItem";
 import { useDispatch, useSelector } from "react-redux";
 import { getPosts } from "../../../store/posts/postActions";
 import styles from "./postList.module.css";
-import Pagination from "../Pagination";
 
 const PostList = () => {
     const dispatch = useDispatch();
@@ -21,11 +20,13 @@ const PostList = () => {
             {loading ? (
                 <h3>Loading...</h3>
             ) : (
-                <div className={styles.center__block}>
-                    {a.map((item) => (
-                        <PostItem key={item.id} item={item} />
-                    ))}
-                </div>
+                <>
+                    <div className={styles.center__block}>
+                        {a.map((item) => (
+                            <PostItem key={item.id} item={item} />
+                        ))}
+                    </div>
+                </>
             )}
         </>
     );

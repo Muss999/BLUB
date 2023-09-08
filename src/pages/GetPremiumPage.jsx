@@ -1,20 +1,18 @@
 import React from "react";
+import GetPremium from "../components/buy_form/GetPremium";
 import SideBar from "../components/sideBar/SideBar";
-import PostList from "../components/posts/postList/PostList";
-import Footer from "../components/footer/Footer";
 
-const QuestionsPage = () => {
+const GetPremiumPage = () => {
     return (
         <>
             <div style={{ display: "flex" }}>
                 <SideBar />
                 <div style={{ marginLeft: "200px" }}>
-                    <PostList />
+                    <GetPremium />
                 </div>
             </div>
-            <Footer />
         </>
     );
 };
 
-export default QuestionsPage;
+export default GetPremiumPage;

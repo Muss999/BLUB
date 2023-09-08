@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { registerUser, loginUser } from "./userActions";
-import { addDataToLocalStorage } from "../../helpers/functions";
+import { addDataToLocalStorage, getPremiumFunc } from "../../helpers/functions";
 import { getUser } from "./userActions";
 import { act } from "react-dom/test-utils";
 
@@ -36,10 +36,16 @@ const userSlice = createSlice({
                     state.user = action.payload.filteredUser;
                     addDataToLocalStorage(
                         action.payload.filteredUser.username,
-                        action.payload.filteredUser.avatarImg
+                        action.payload.filteredUser.avatarImg,
+                        action.payload.filteredUser.isPremium
                     );
+                    // getPremiumFunc(
+                    //     action.payload.filteredUser.username,
+                    //     action.payload.filteredUser.avatarImg,
+                    //     action.payload.filteredUser.isPremium
+                    // );
                     action.payload.navigate("/");
-                    console.log(state.user);
+                    // console.log(state.user);
                 }
             })
             .addCase(loginUser.rejected, (state) => {
