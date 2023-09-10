@@ -49,6 +49,7 @@
     display: flex;
     justify-content: space-evenly;
     cursor: pointer;
+    z-index: 99;
 }
 .askIcon {
     width: 20px;
@@ -79,7 +80,6 @@
     width: 60px;
     margin: 10px;
 }
-
 /*! dropdown */
 dropdown_foto_div > img {
     width: 100%;
