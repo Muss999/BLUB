@@ -39,13 +39,7 @@ const userSlice = createSlice({
                         action.payload.filteredUser.avatarImg,
                         action.payload.filteredUser.isPremium
                     );
-                    // getPremiumFunc(
-                    //     action.payload.filteredUser.username,
-                    //     action.payload.filteredUser.avatarImg,
-                    //     action.payload.filteredUser.isPremium
-                    // );
                     action.payload.navigate("/");
-                    // console.log(state.user);
                 }
             })
             .addCase(loginUser.rejected, (state) => {

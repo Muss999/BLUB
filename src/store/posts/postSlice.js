@@ -11,6 +11,7 @@ const postsSlice = createSlice({
         search: "",
         currentPage: 1,
         totalPages: 1,
+        currentCategory: "",
     },
     reducers: {
         clearOnePostState: (state) => {
@@ -23,6 +24,10 @@ const postsSlice = createSlice({
         changePage: (state, action) => {
             state.currentPage = action.payload.page;
         },
+        changeCategory: (state, action) => {
+            state.currentCategory = action.payload.category;
+            state.currentPage = 1;
+        },
     },
     extraReducers: (builder) => {
         builder
@@ -31,7 +36,6 @@ const postsSlice = createSlice({
             })
             .addCase(getPosts.fulfilled, (state, action) => {
                 state.loading = false;
-
                 state.posts = action.payload.res.data;
                 state.totalPages = action.payload.totalPages;
             })
@@ -51,7 +55,11 @@ const postsSlice = createSlice({
     },
 });
 
-export const { clearOnePostState, changeSearchVal, changePage } =
-    postsSlice.actions;
+export const {
+    clearOnePostState,
+    changeSearchVal,
+    changePage,
+    changeCategory,
+} = postsSlice.actions;
 
 export default postsSlice.reducer;
