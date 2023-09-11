@@ -5,6 +5,8 @@ import LoginPage from "../pages/LoginPage";
 import QuestionsPage from "../pages/QuestionsPage";
 import PostCreatePage from "../pages/PostCreatePage";
 import PostDetailsPage from "../pages/PostDetailsPage";
+import GetPremiumPage from "../pages/GetPremiumPage";
+import CategoriesPage from "../pages/CategoriesPage";
 
 const MainRoutes = () => {
     const ROUTES = [
@@ -32,6 +34,16 @@ const MainRoutes = () => {
             id: 5,
             path: "/post-details/:id",
             element: <PostDetailsPage />,
+        },
+        {
+            id: 6,
+            path: "/get-premium",
+            element: <GetPremiumPage />,
+        },
+        {
+            id: 7,
+            path: "/categories-page",
+            element: <CategoriesPage />,
         },
     ];
 

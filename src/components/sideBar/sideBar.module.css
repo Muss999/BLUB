@@ -1,7 +1,9 @@
 .sideBar {
+    position: absolute;
     width: 15%;
-    box-shadow: 1px 1px 1px rgb(203, 203, 203);
-    height: 83vh;
+    border: 1px solid rgb(178, 178, 178);
+    border-bottom: transparent;
+    height: 89vh;
     background-color: white;
 }
 .input__block {
@@ -11,7 +13,12 @@
     border-radius: 5px;
     margin-bottom: 50px;
     align-items: center;
+    position: relative;
     border: 1px solid rgb(178, 178, 178);
+}
+.search_input {
+    width: 100%;
+    margin: 10px;
 }
 .top__block {
     padding: 30px;
@@ -40,7 +47,7 @@
     display: flex;
     height: 100px;
     align-items: center;
-    transition: 0.5s;
+    transition: 1s;
     justify-content: center;
 }
 .sideBar_left_block:hover {

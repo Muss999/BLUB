@@ -1,87 +1,78 @@
 {
   "users": [
     {
-      "username": "asdfaaa2345678",
-      "password": "asdf",
-      "avatarImg": "f",
-      "subscribers": 0,
-      "id": 1
-    },
-    {
-      "username": "asd",
-      "password": "asdf",
-      "avatarImg": "f",
-      "subscribers": 0,
-      "id": 2
-    },
-    {
-      "username": "aa",
-      "password": "a",
-      "avatarImg": "a",
-      "subscribers": 0,
-      "id": 3
-    },
-    {
-      "username": "a",
-      "password": "a",
-      "avatarImg": "a",
-      "subscribers": 0,
-      "id": 4
-    },
-    {
-      "username": "v",
-      "password": "v",
-      "avatarImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4UUQMYsxMUWE5m8zzN6ny_j_Dfsw38gsk-w&usqp=CAU",
-      "subscribers": 0,
-      "id": 5
-    },
-    {
-      "username": "Arzy",
+      "username": "arzy",
       "password": "123",
       "avatarImg": "https://m.buro247.ru/images/dasha/news/putin4.jpg",
       "subscribers": 0,
-      "id": 6
+      "isPremium": false,
+      "id": 1
+    },
+    {
+      "username": "Arzu",
+      "password": "321",
+      "avatarImg": "https://vds64.com/img/blog/200227-1.png",
+      "subscribers": 0,
+      "isPremium": false,
+      "id": 2
     }
   ],
   "posts": [
     {
       "author": {
-        "username": "asdfaaa2345678",
-        "avatarImg": "f"
+        "username": "Arzy",
+        "avatarImg": "https://m.buro247.ru/images/dasha/news/putin4.jpg",
+        "isPremium": true
       },
-      "postQuestion": "sacascasasc",
-      "category": "csacsacacacsac",
+      "postQuestion": "bgdfbgfd",
+      "category": "gbdbfg",
       "comments": [],
-      "description": "acascascascsccsacasccsacsaca",
+      "description": "bgdbgf",
       "likes": 0,
       "commentsCount": 0,
       "id": 1
     },
     {
       "author": {
-        "username": "asdfaaa2345678",
-        "avatarImg": "f"
+        "username": "Arzy",
+        "avatarImg": "https://m.buro247.ru/images/dasha/news/putin4.jpg",
+        "isPremium": true
       },
-      "postQuestion": "adscasdcasdc",
-      "category": "cacacacacadscasc",
+      "postQuestion": "bgdfbgfd",
+      "category": "gbdbfg",
       "comments": [],
-      "description": "cascdascadscdsaa",
+      "description": "bgdbgf",
       "likes": 0,
       "commentsCount": 0,
       "id": 2
     },
     {
       "author": {
-        "username": "asdfaaa2345678",
-        "avatarImg": "f"
+        "username": "Arzy",
+        "avatarImg": "https://m.buro247.ru/images/dasha/news/putin4.jpg",
+        "isPremium": true
       },
-      "postQuestion": "adscasdcasdc",
-      "category": "cacacacacadscasc",
+      "postQuestion": "bgdfbgfd",
+      "category": "gbdbfg",
       "comments": [],
-      "description": "cascdascadscdsaa",
+      "description": "bgdbgf",
       "likes": 0,
       "commentsCount": 0,
       "id": 3
+    },
+    {
+      "author": {
+        "username": "Arzy",
+        "avatarImg": "https://m.buro247.ru/images/dasha/news/putin4.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "bgdfbgfd",
+      "category": "gbdbfg",
+      "comments": [],
+      "description": "bgdbgf",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 4
     }
   ]
 }
