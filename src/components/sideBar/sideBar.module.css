@@ -1,7 +1,8 @@
 .sideBar {
     position: absolute;
     width: 15%;
-    border: 1px solid rgb(178, 178, 178);
+    /* border: 1px solid rgb(178, 178, 178); */
+    border: transparent;
     border-bottom: transparent;
     height: 89vh;
     background-color: white;
@@ -55,7 +56,7 @@
     cursor: pointer;
     border-left: 10px solid #f48023;
     transition: 0.5s;
-    background-color: rgba(244, 129, 35, 0.09);
+    background-color: rgba(244, 129, 35, 0.4);
 }
 
 /* adaptive */

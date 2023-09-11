@@ -37,7 +37,8 @@ const PostItem = ({ item }) => {
                             <div className={styles.dropdown_content}>
                                 <a
                                     href="#"
-                                    onClick={() => dispatch(deletePost(item))}>
+                                    onClick={() => dispatch(deletePost(item))}
+                                >
                                     Delete
                                 </a>
                             </div>
@@ -56,20 +57,28 @@ const PostItem = ({ item }) => {
                                 className={styles.to__desc__btn}
                                 onClick={() =>
                                     navigate(`/post-details/${item.id}`)
-                                }>
+                                }
+                            >
                                 Learn answers
                             </button>
                         </div>
                         <div className={styles.couter__block}>
                             <img src={like_item} alt="" />
                             <p>{item.likes}</p>
-                            <img
-                                src={coment_Item}
-                                alt=""
-                                width="15px"
-                                height="15px"
-                            />
-                            <p>{item.commentsCount}</p>
+                            <div
+                                className={styles.comentsCountDiv}
+                                onClick={() =>
+                                    navigate(`/post-details/${item.id}`)
+                                }
+                            >
+                                <img
+                                    src={coment_Item}
+                                    alt=""
+                                    width="15px"
+                                    height="15px"
+                                />
+                                <p>{item.commentsCount}</p>
+                            </div>
                         </div>
                     </div>
                 </div>

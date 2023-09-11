@@ -22,7 +22,7 @@ const PostDetails = () => {
     let postObj = posts.find((item) => item.id == id);
 
     return (
-        <>
+        <div className={styles.main_div_comments}>
             <div className={styles.postItem_center}>
                 <div className={styles.center__user__block}>
                     <div className={styles.user__block}>
@@ -53,7 +53,8 @@ const PostDetails = () => {
                         <div className={styles.btns}>
                             <button
                                 className={styles.to__desc__btn}
-                                onClick={() => navigate(`/`)}>
+                                onClick={() => navigate(`/`)}
+                            >
                                 back to posts
                             </button>
                         </div>
@@ -66,7 +67,7 @@ const PostDetails = () => {
             </div>
             <ComentCreate />
             <CommentList postObj={postObj} />
-        </>
+        </div>
     );
 };
 

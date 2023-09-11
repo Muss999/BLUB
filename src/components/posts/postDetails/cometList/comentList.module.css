@@ -1,3 +1,8 @@
 .commList {
-    margin-left: 400px;
+    width: 70%;
+}
+@media all and (max-width: 380px) {
+    .commList {
+        width: 90%;
+    }
 }
