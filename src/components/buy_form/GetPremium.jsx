@@ -10,10 +10,8 @@ const GetPremium = () => {
             <div className={styles.main_div_inner}>
                 <h1 className={styles.buy_h1}>Get Premium!!!</h1>
                 <p className={styles.buy_desc}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odit, porro. Molestias error laboriosam nostrum ullam unde
-                    aut temporibus optio architecto pariatur accusamus culpa
-                    facilis esse laborum, animi ipsa, assumenda eveniet.
+                    ПРЕМ ИСЧЕЗНЕТ ПОСЛЕ ВЫХОДА С АККАУНТА. ТАКОВА ПОЛИТИКА НАШЕЙ
+                    КОМПАНИИ
                 </p>
                 <div
                     onClick={() => {

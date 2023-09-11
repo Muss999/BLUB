@@ -1,9 +1,10 @@
 import React from "react";
 import CommentItem from "../commentItem/CommentItem";
+import styles from "./comentList.module.css";
 
 const CommentList = ({ postObj }) => {
     return (
-        <div>
+        <div className={styles.commList}>
             {postObj.comments.map((item) => (
                 <CommentItem key={item.id} item={item} />
             ))}

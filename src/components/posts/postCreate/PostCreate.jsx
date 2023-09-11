@@ -50,7 +50,7 @@ const PostCreate = () => {
                                     postQuestion: e.target.value,
                                 })
                             }
-                            maxLength="30"
+                            maxlength="60"
                         />
                         <input
                             className={styles.desc_input}
@@ -62,7 +62,7 @@ const PostCreate = () => {
                                     description: e.target.value,
                                 })
                             }
-                            maxLength="80"
+                            maxlength="200"
                         />
                     </div>
                     <button

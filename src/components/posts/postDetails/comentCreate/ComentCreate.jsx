@@ -43,6 +43,7 @@ const ComentCreate = () => {
     return (
         <div className={styles.commentDiv}>
             <input
+                className={styles.commentInp}
                 type="text"
                 maxLength="80"
                 onChange={(e) =>
@@ -53,10 +54,12 @@ const ComentCreate = () => {
                 }
             />
             <button
+                className={styles.commentBtn}
                 onClick={() => {
                     addCom();
                     navigate("/");
-                }}>
+                }}
+            >
                 add comment
             </button>
         </div>

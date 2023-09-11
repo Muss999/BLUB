@@ -62,14 +62,21 @@ const PostItem = ({ item }) => {
                         </div>
                         <div className={styles.couter__block}>
                             <img src={like_item} alt="" />
+
                             <p>{item.likesCount}</p>
-                            <img
-                                src={coment_Item}
-                                alt=""
-                                width="15px"
-                                height="15px"
-                            />
-                            <p>{item.commentsCount}</p>
+                            <div
+                                className={styles.comentsCountDiv}
+                                onClick={() =>
+                                    navigate(`/post-details/${item.id}`)
+                                }>
+                                <img
+                                    src={coment_Item}
+                                    alt=""
+                                    width="15px"
+                                    height="15px"
+                                />
+                                <p>{item.commentsCount}</p>
+                            </div>
                         </div>
                     </div>
                 </div>

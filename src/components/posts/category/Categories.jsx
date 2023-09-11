@@ -19,31 +19,33 @@ const Categories = () => {
         dispatch(getPosts());
     }, []);
     return (
-        <div className={styles.sideBar_left_block_category}>
-            <div className={styles.dropdown_content_category}>
-                <h3>Choose Category</h3>
-                <a
-                    onClick={() => {
-                        navigate("/");
-
-                        dispatch(changeCategory({ category: "" }));
-                        dispatch(getPosts());
-                    }}
-                >
-                    All
-                </a>
-                {categories.map((category, index) => (
-                    <a
-                        key={index}
+        <div className={styles.main_div}>
+            <div className={styles.sideBar_left_block_category}>
+                <div className={styles.dropdown_content_category}>
+                    <h3>Choose Category</h3>
+                    <div
                         onClick={() => {
                             navigate("/");
-                            dispatch(changeCategory({ category }));
+
+                            dispatch(changeCategory({ category: "" }));
                             dispatch(getPosts());
                         }}
                     >
-                        {category}
-                    </a>
-                ))}
+                        All
+                    </div>
+                    {categories.map((category, index) => (
+                        <div
+                            key={index}
+                            onClick={() => {
+                                navigate("/");
+                                dispatch(changeCategory({ category }));
+                                dispatch(getPosts());
+                            }}
+                        >
+                            {category}
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );

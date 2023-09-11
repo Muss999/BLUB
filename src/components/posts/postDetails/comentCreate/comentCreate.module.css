@@ -1,4 +1,37 @@
 .commentDiv {
-    width: 100vw;
-    margin-left: 400px;
+    width: 70%;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.commentInp {
+    width: 50%;
+    margin: 10px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.commentBtn {
+    background-color: #f48023;
+    color: white;
+    width: 40%;
+    height: 40px;
+    border: transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* adaptive */
+@media all and (max-width: 935px) {
+    .commentBtn {
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 380px) {
+    .commentDiv {
+        width: 90%;
+    }
 }
