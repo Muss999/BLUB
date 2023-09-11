@@ -18,8 +18,9 @@ const PostCreate = () => {
         postQuestion: "",
         category: "",
         comments: [],
+        likes: [],
         description: "",
-        likes: 0,
+        likesCount: 0,
         commentsCount: 0,
     });
     return (
@@ -37,7 +38,7 @@ const PostCreate = () => {
                                     category: e.target.value,
                                 })
                             }
-                            maxlength="30"
+                            maxLength="30"
                         />
                         <input
                             type="text"
@@ -49,7 +50,7 @@ const PostCreate = () => {
                                     postQuestion: e.target.value,
                                 })
                             }
-                            maxlength="30"
+                            maxLength="30"
                         />
                         <input
                             className={styles.desc_input}
@@ -61,7 +62,7 @@ const PostCreate = () => {
                                     description: e.target.value,
                                 })
                             }
-                            maxlength="80"
+                            maxLength="80"
                         />
                     </div>
                     <button
@@ -69,8 +70,7 @@ const PostCreate = () => {
                         onClick={() => {
                             navigate("/");
                             dispatch(createPost(postObj));
-                        }}
-                    >
+                        }}>
                         <img src={postImg} alt="" />
                         Add Post
                     </button>

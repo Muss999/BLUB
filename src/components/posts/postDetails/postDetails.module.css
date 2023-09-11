@@ -52,6 +52,7 @@
 }
 .couter__block {
     display: flex;
+    align-items: center;
 }
 .couter__block p {
     margin-right: 10px;

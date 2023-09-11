@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./comentCreate.module.css";
 import { useParams } from "react-router-dom";
-import { getPosts, addComments } from "../../../../store/posts/postActions";
+import { getPosts, editPost } from "../../../../store/posts/postActions";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
@@ -37,7 +37,7 @@ const ComentCreate = () => {
             comments: updatedComments,
             commentsCount: updatedComments.length, // Обновляем commentsCount
         };
-        dispatch(addComments(updatedPost));
+        dispatch(editPost(updatedPost));
     };
 
     return (

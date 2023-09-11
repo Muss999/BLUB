@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "username": "musi",
+      "password": "123",
+      "avatarImg": "https://avatarfiles.alphacoders.com/342/342065.jpeg",
+      "subscribers": 0,
+      "isPremium": false,
+      "id": 1
+    },
+    {
+      "username": "Arzy",
+      "password": "123",
+      "avatarImg": "https://e1.pxfuel.com/desktop-wallpaper/467/133/desktop-wallpaper-pin-on-anime-y-mas-anime-avatar-girl.jpg",
+      "subscribers": 0,
+      "isPremium": false,
+      "id": 2
+    },
+    {
+      "username": "Adahan",
+      "password": "123",
+      "avatarImg": "https://i.pinimg.com/736x/80/17/86/80178693d1d0c7e0ec688707b02ecc0b.jpg",
+      "subscribers": 0,
+      "isPremium": false,
+      "id": 3
+    },
+    {
+      "username": "Musi 2",
+      "password": "123",
+      "avatarImg": "https://i.pinimg.com/736x/c2/23/24/c22324e7088934283545439601b82536.jpg",
+      "subscribers": 0,
+      "isPremium": false,
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "author": {
+        "username": "Arzu",
+        "avatarImg": "https://vds64.com/img/blog/200227-1.png",
+        "isPremium": true
+      },
+      "postQuestion": "cdscdsc",
+      "category": "cdscds",
+      "comments": [],
+      "likes": [
+        {
+          "user": {
+            "username": "Arzu",
+            "avatarImg": "https://vds64.com/img/blog/200227-1.png",
+            "isPremium": true
+          },
+          "id": 1694445859580
+        },
+        {
+          "user": {
+            "username": "Arzu",
+            "avatarImg": "https://vds64.com/img/blog/200227-1.png",
+            "isPremium": true
+          },
+          "id": 1694446336725
+        }
+      ],
+      "description": "dscdsc",
+      "likesCount": 2,
+      "commentsCount": 0,
+      "id": 1
+    },
+    {
+      "author": {
+        "username": "Arzu",
+        "avatarImg": "https://vds64.com/img/blog/200227-1.png",
+        "isPremium": true
+      },
+      "postQuestion": "scd",
+      "category": "cdscd",
+      "comments": [],
+      "likes": [],
+      "description": "scds",
+      "likesCount": 0,
+      "commentsCount": 0,
+      "id": 2
+    },
+    {
+      "author": {
+        "username": "Arzu",
+        "avatarImg": "https://vds64.com/img/blog/200227-1.png",
+        "isPremium": true
+      },
+      "postQuestion": "csacas",
+      "category": "csacsacas",
+      "comments": [],
+      "likes": [
+        {
+          "user": {
+            "username": "Arzu",
+            "avatarImg": "https://vds64.com/img/blog/200227-1.png",
+            "isPremium": true
+          },
+          "id": 1694446865749
+        }
+      ],
+      "description": "csacas",
+      "likesCount": 1,
+      "commentsCount": 0,
+      "id": 3
+    }
+  ],
+  "likeRanckit": []
+}

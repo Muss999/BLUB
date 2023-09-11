@@ -7,8 +7,8 @@ import { useDispatch } from "react-redux";
 import { deletePost } from "../../../store/posts/postActions";
 
 const PostItem = ({ item }) => {
-    let navigate = useNavigate();
-    let dispatch = useDispatch();
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     return (
         <>
@@ -62,7 +62,7 @@ const PostItem = ({ item }) => {
                         </div>
                         <div className={styles.couter__block}>
                             <img src={like_item} alt="" />
-                            <p>{item.likes}</p>
+                            <p>{item.likesCount}</p>
                             <img
                                 src={coment_Item}
                                 alt=""
