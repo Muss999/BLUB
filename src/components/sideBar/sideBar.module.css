@@ -57,3 +57,36 @@
     transition: 0.5s;
     background-color: rgba(244, 129, 35, 0.4);
 }
+
+/* adaptive */
+@media all and (max-width: 1230px) {
+    .sideBar {
+        width: 20%;
+    }
+}
+@media all and (max-width: 900px) {
+    .sideBar {
+        width: 25%;
+    }
+}
+@media all and (max-width: 700px) {
+    .sideBar {
+        width: 28%;
+    }
+}
+@media all and (max-width: 540px) {
+    .sideBar {
+        width: 33%;
+    }
+}
+@media all and (max-width: 420px) {
+    .sideBar {
+        width: 35%;
+    }
+    .sideBar_left_block > p {
+        display: none;
+    }
+    .top__block {
+        padding: 10px;
+    }
+}

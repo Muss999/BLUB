@@ -6,7 +6,7 @@ const PostCreatePage = () => {
     return (
         <div style={{ display: "flex" }}>
             <SideBar />
-            <div style={{ marginLeft: "200px" }}>
+            <div>
                 <PostCreate />
             </div>
         </div>

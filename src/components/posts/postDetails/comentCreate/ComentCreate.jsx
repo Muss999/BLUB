@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import style from "./comentCreate.module.css";
+import styles from "./comentCreate.module.css";
 import { useParams } from "react-router-dom";
 import { getPosts } from "../../../../store/posts/postActions";
 import { useDispatch, useSelector } from "react-redux";
@@ -21,7 +21,7 @@ const ComentCreate = () => {
     const [newpostObj, setNewpostObj] = useState(postObj);
 
     return (
-        <div>
+        <div className={styles.commentDiv}>
             <input
                 type="text"
                 maxLength="80"

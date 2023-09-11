@@ -59,3 +59,7 @@
     border-radius: 5px;
     color: rgb(118, 118, 118);
 }
+.username {
+    margin-left: 12px;
+    margin-top: 7px;
+}

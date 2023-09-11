@@ -3,298 +3,204 @@
         {
             "username": "musi",
             "password": "123",
-            "avatarImg": "ff",
+            "avatarImg": "https://avatarfiles.alphacoders.com/342/342065.jpeg",
             "subscribers": 0,
             "isPremium": false,
             "id": 1
+        },
+        {
+            "username": "Arzy",
+            "password": "123",
+            "avatarImg": "https://e1.pxfuel.com/desktop-wallpaper/467/133/desktop-wallpaper-pin-on-anime-y-mas-anime-avatar-girl.jpg",
+            "subscribers": 0,
+            "isPremium": false,
+            "id": 2
+        },
+        {
+            "username": "Adahan",
+            "password": "123",
+            "avatarImg": "https://i.pinimg.com/736x/80/17/86/80178693d1d0c7e0ec688707b02ecc0b.jpg",
+            "subscribers": 0,
+            "isPremium": false,
+            "id": 3
+        },
+        {
+            "username": "Musi 2",
+            "password": "123",
+            "avatarImg": "https://i.pinimg.com/736x/c2/23/24/c22324e7088934283545439601b82536.jpg",
+            "subscribers": 0,
+            "isPremium": false,
+            "id": 4
         }
     ],
     "posts": [
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "musi",
+                "avatarImg": "https://avatarfiles.alphacoders.com/342/342065.jpeg",
+                "isPremium": true
             },
-            "postQuestion": "MUSY",
-            "category": "musy",
+            "postQuestion": "errror 404 ",
+            "category": "elec",
             "comments": [],
-            "description": "acascascascsccsacasccsacsaca",
+            "description": "why loefalsk asldkfj eio  sldakfe oiadfs h",
             "likes": 0,
             "commentsCount": 0,
             "id": 1
         },
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "musi",
+                "avatarImg": "https://avatarfiles.alphacoders.com/342/342065.jpeg",
+                "isPremium": true
             },
-            "postQuestion": "adscasdcasdc",
-            "category": "cacacacacadscasc",
+            "postQuestion": "123",
+            "category": "muus ",
             "comments": [],
-            "description": "cascdascadscdsaa",
+            "description": "adfaewf asf aew f",
             "likes": 0,
             "commentsCount": 0,
             "id": 2
         },
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "Arzy",
+                "avatarImg": "https://e1.pxfuel.com/desktop-wallpaper/467/133/desktop-wallpaper-pin-on-anime-y-mas-anime-avatar-girl.jpg",
+                "isPremium": true
             },
-            "postQuestion": "adscasdcasdc",
-            "category": "cacacacacadscasc",
+            "postQuestion": "prison",
+            "category": "chupa",
             "comments": [],
-            "description": "cascdascadscdsaa",
+            "description": "1231234fasd",
             "likes": 0,
             "commentsCount": 0,
             "id": 3
         },
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "Arzy",
+                "avatarImg": "https://e1.pxfuel.com/desktop-wallpaper/467/133/desktop-wallpaper-pin-on-anime-y-mas-anime-avatar-girl.jpg",
+                "isPremium": true
             },
-            "postQuestion": "adscasdcasdc",
-            "category": "cacacacacadscasc",
+            "postQuestion": "mmmiii",
+            "category": "Go to swinm",
             "comments": [],
-            "description": "cascdascadscdsaa",
+            "description": "how to cook plov??",
             "likes": 0,
             "commentsCount": 0,
             "id": 4
         },
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "Adahan",
+                "avatarImg": "https://i.pinimg.com/736x/80/17/86/80178693d1d0c7e0ec688707b02ecc0b.jpg",
+                "isPremium": true
             },
-            "postQuestion": "adscasdcasdc",
-            "category": "cacacacacadscasc",
+            "postQuestion": "быть или не быть",
+            "category": "вопросы",
             "comments": [],
-            "description": "cascdascadscdsaa",
+            "description": "вот в чем вопрос",
             "likes": 0,
             "commentsCount": 0,
             "id": 5
         },
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "Musi 2",
+                "avatarImg": "https://i.pinimg.com/736x/c2/23/24/c22324e7088934283545439601b82536.jpg",
+                "isPremium": true
             },
-            "postQuestion": "adscasdcasdc",
-            "category": "cacacacacadscasc",
+            "postQuestion": "купил прем",
+            "category": "выгоды",
             "comments": [],
-            "description": "cascdascadscdsaa",
+            "description": "Наконецто могу задавать вопросы!!",
             "likes": 0,
             "commentsCount": 0,
             "id": 6
         },
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "musi",
+                "avatarImg": "https://avatarfiles.alphacoders.com/342/342065.jpeg",
+                "isPremium": true
             },
-            "postQuestion": "adscasdcasdc",
-            "category": "cacacacacadscasc",
+            "postQuestion": "errror 404 ",
+            "category": "elec",
             "comments": [],
-            "description": "cascdascadscdsaa",
+            "description": "why loefalsk asldkfj eio  sldakfe oiadfs h",
             "likes": 0,
             "commentsCount": 0,
             "id": 7
         },
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "musi",
+                "avatarImg": "https://avatarfiles.alphacoders.com/342/342065.jpeg",
+                "isPremium": true
             },
-            "postQuestion": "adscasdcasdc",
-            "category": "cacacacacadscasc",
+            "postQuestion": "123",
+            "category": "muus ",
             "comments": [],
-            "description": "cascdascadscdsaa",
+            "description": "adfaewf asf aew f",
             "likes": 0,
             "commentsCount": 0,
             "id": 8
         },
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "Arzy",
+                "avatarImg": "https://e1.pxfuel.com/desktop-wallpaper/467/133/desktop-wallpaper-pin-on-anime-y-mas-anime-avatar-girl.jpg",
+                "isPremium": true
             },
-            "postQuestion": "adscasdcasdc",
-            "category": "cacacacacadscasc",
+            "postQuestion": "prison",
+            "category": "chupa",
             "comments": [],
-            "description": "cascdascadscdsaa",
+            "description": "1231234fasd",
             "likes": 0,
             "commentsCount": 0,
             "id": 9
         },
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "Arzy",
+                "avatarImg": "https://e1.pxfuel.com/desktop-wallpaper/467/133/desktop-wallpaper-pin-on-anime-y-mas-anime-avatar-girl.jpg",
+                "isPremium": true
             },
-            "postQuestion": "adscasdcasdc",
-            "category": "cacacacacadscasc",
+            "postQuestion": "mmmiii",
+            "category": "Go to swinm",
             "comments": [],
-            "description": "cascdascadscdsaa",
+            "description": "how to cook plov??",
             "likes": 0,
             "commentsCount": 0,
             "id": 10
         },
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "Adahan",
+                "avatarImg": "https://i.pinimg.com/736x/80/17/86/80178693d1d0c7e0ec688707b02ecc0b.jpg",
+                "isPremium": true
             },
-            "postQuestion": "vdsavasvd",
-            "category": "vdsvdasva",
+            "postQuestion": "быть или не быть",
+            "category": "вопросы",
             "comments": [],
-            "description": "vdsvas",
+            "description": "вот в чем вопрос",
             "likes": 0,
             "commentsCount": 0,
             "id": 11
         },
         {
             "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
+                "username": "Musi 2",
+                "avatarImg": "https://i.pinimg.com/736x/c2/23/24/c22324e7088934283545439601b82536.jpg",
+                "isPremium": true
             },
-            "postQuestion": "vdsavasvd",
-            "category": "vdsvdasva",
+            "postQuestion": "купил прем",
+            "category": "выгоды",
             "comments": [],
-            "description": "vdsvas",
+            "description": "Наконецто могу задавать вопросы!!",
             "likes": 0,
             "commentsCount": 0,
             "id": 12
-        },
-        {
-            "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
-            },
-            "postQuestion": "vdsavasvd",
-            "category": "vdsvdasva",
-            "comments": [],
-            "description": "vdsvas",
-            "likes": 0,
-            "commentsCount": 0,
-            "id": 13
-        },
-        {
-            "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
-            },
-            "postQuestion": "vdsavasvd",
-            "category": "vdsvdasva",
-            "comments": [],
-            "description": "vdsvas",
-            "likes": 0,
-            "commentsCount": 0,
-            "id": 14
-        },
-        {
-            "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
-            },
-            "postQuestion": "vdsavasvd",
-            "category": "vdsvdasva",
-            "comments": [],
-            "description": "vdsvas",
-            "likes": 0,
-            "commentsCount": 0,
-            "id": 15
-        },
-        {
-            "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
-            },
-            "postQuestion": "vdsavasvd",
-            "category": "vdsvdasva",
-            "comments": [],
-            "description": "vdsvas",
-            "likes": 0,
-            "commentsCount": 0,
-            "id": 16
-        },
-        {
-            "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
-            },
-            "postQuestion": "vdsavasvd",
-            "category": "vdsvdasva",
-            "comments": [],
-            "description": "vdsvas",
-            "likes": 0,
-            "commentsCount": 0,
-            "id": 17
-        },
-        {
-            "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
-            },
-            "postQuestion": "vdsavasvd",
-            "category": "vdsvdasva",
-            "comments": [],
-            "description": "vdsvas",
-            "likes": 0,
-            "commentsCount": 0,
-            "id": 18
-        },
-        {
-            "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
-            },
-            "postQuestion": "vdsavasvd",
-            "category": "vdsvdasva",
-            "comments": [],
-            "description": "vdsvas",
-            "likes": 0,
-            "commentsCount": 0,
-            "id": 19
-        },
-        {
-            "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
-            },
-            "postQuestion": "vdsavasvd",
-            "category": "vdsvdasva",
-            "comments": [],
-            "description": "vdsvas",
-            "likes": 0,
-            "commentsCount": 0,
-            "id": 20
-        },
-        {
-            "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
-            },
-            "postQuestion": "arzy",
-            "category": "arzy",
-            "comments": [],
-            "description": "dfghjk",
-            "likes": 0,
-            "commentsCount": 0,
-            "id": 21
-        },
-        {
-            "author": {
-                "username": "asdfaaa2345678",
-                "avatarImg": "f"
-            },
-            "postQuestion": "arzy",
-            "category": "arzy",
-            "comments": [],
-            "description": "dfghjk",
-            "likes": 0,
-            "commentsCount": 0,
-            "id": 22
         }
     ]
 }
