@@ -16,11 +16,11 @@ const PostItem = ({ item }) => {
                             <img
                                 className={styles.user__img}
                                 src={item.author.avatarImg}
-                                alt=""
+                                alt="internet problems"
                             />
-                            <h5 className={styles.username}>
+                            <h3 className={styles.username}>
                                 {item.author.username}
-                            </h5>
+                            </h3>
                         </div>
                     </div>
 

@@ -8,7 +8,7 @@ const PostDetailsPage = () => {
     return (
         <div style={{ display: "flex" }}>
             <SideBar />
-            <div style={{ width: "100vw", marginLeft: "400px" }}>
+            <div>
                 <PostDetails />
             </div>
             <PostAccount />

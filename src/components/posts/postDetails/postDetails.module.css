@@ -9,6 +9,9 @@
     height: 300px;
     border-radius: 5px;
     box-shadow: 1px 2px 1px rgb(184, 184, 184);
+    /* ada */
+    /* width: 100vw; */
+    margin-left: 400px;
 }
 .center__user__block {
     width: 100%;

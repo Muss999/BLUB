@@ -6,7 +6,7 @@ const CategoriesPage = () => {
         <>
             <div style={{ display: "flex" }}>
                 <SideBar />
-                <div style={{ marginLeft: "400px" }}>
+                <div>
                     <Categories />
                 </div>
             </div>

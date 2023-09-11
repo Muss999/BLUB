@@ -67,8 +67,10 @@ const PostCreate = () => {
                     <button
                         className={styles.post__btn}
                         onClick={() => {
+                            navigate("/");
                             dispatch(createPost(postObj));
-                        }}>
+                        }}
+                    >
                         <img src={postImg} alt="" />
                         Add Post
                     </button>

@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
-import style from "./comentCreate.module.css";
+import React, { useEffect, useState } from "react";
+import styles from "./comentCreate.module.css";
 import { useParams } from "react-router-dom";
 import { getPosts, addComments } from "../../../../store/posts/postActions";
 import { useDispatch, useSelector } from "react-redux";
@@ -42,7 +41,7 @@ const ComentCreate = () => {
     };
 
     return (
-        <div>
+        <div className={styles.commentDiv}>
             <input
                 type="text"
                 maxLength="80"
@@ -53,7 +52,13 @@ const ComentCreate = () => {
                     })
                 }
             />
-            <button onClick={addCom}>add comment</button>
+            <button
+                onClick={() => {
+                    addCom();
+                    navigate("/");
+                }}>
+                add comment
+            </button>
         </div>
     );
 };

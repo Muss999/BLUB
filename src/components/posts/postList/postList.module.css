@@ -6,4 +6,26 @@
     justify-content: center;
     overflow-y: scroll;
     height: 80vh;
+    margin-left: 200px;
+}
+
+@media all and (max-width: 700px) {
+    .center__block {
+        margin-left: 150px;
+    }
+}
+@media all and (max-width: 520px) {
+    .center__block {
+        margin-left: 120px;
+    }
+}
+@media all and (max-width: 420px) {
+    .center__block {
+        margin-left: 140px;
+    }
+}
+@media all and (max-width: 380px) {
+    .center__block {
+        margin-left: 100px;
+    }
 }

@@ -1,32 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import styles from "./navbar.module.css";
 import { useNavigate } from "react-router-dom";
-import { logout, getCategories } from "../../helpers/functions";
+import { logout } from "../../helpers/functions";
 import { useDispatch } from "react-redux";
-import { changeCategory } from "../../store/posts/postSlice";
 // foto
 import logo from "./img/загружено-removebg-preview.png";
 import userPluce from "./img/user-plus-1-removebg-preview.png";
 import askQuestion from "./img/262038-removebg-preview.png";
 import notificationTrue from "./img/notification-true.png";
 import notificationFalse from "./img/notification-false.png";
-import profileFoto from "./img/profile-pic.png";
-import categoriesIcon from "../sideBar/img/3502685-removebg-preview.png";
-
 import dropdown_foto from "./img/dropDownMenu.png";
+
 import { getPosts } from "../../store/posts/postActions";
 
 const Navbar = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
-    const [categories, setCategories] = useState([]);
-    const getCategoriesData = async () => {
-        let categories = await getCategories();
-        setCategories(categories);
-    };
     useEffect(() => {
-        getCategoriesData();
         dispatch(getPosts());
     }, []);
 
@@ -58,7 +49,7 @@ const Navbar = () => {
                                         alt=""
                                         className={styles.askIcon}
                                     />
-                                    Ask question
+                                    <p>Ask...</p>
                                 </button>
                             )}
 
@@ -102,12 +93,12 @@ const Navbar = () => {
                                     alt=""
                                     className={styles.register_img}
                                 />
-                                register
+                                <p>Register</p>
                             </button>
                             <button
                                 className={styles.login__btn}
                                 onClick={() => navigate("/login")}>
-                                login
+                                <p>Login</p>
                             </button>
                         </>
                     )}

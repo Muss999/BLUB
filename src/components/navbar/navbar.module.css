@@ -12,9 +12,10 @@
     filter: invert(100%);
 }
 .left__block {
-    margin-top: 15px;
-    margin-left: 25px;
-    margin-bottom: 10px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .right__block {
     display: flex;
@@ -37,9 +38,15 @@
     align-items: center;
     width: 150px;
 }
+.register__btn:hover {
+    cursor: pointer;
+}
 .login__btn {
     color: #1682fd;
     background: #eaeaea;
+}
+.login__btn:hover {
+    cursor: pointer;
 }
 .add_question_btn {
     background-color: #f48023;
@@ -58,6 +65,7 @@
 }
 .profileFoto {
     border-radius: 50%;
+    position: relative;
 }
 .notificationFoto > img {
     width: 100%;
@@ -72,6 +80,7 @@
     cursor: pointer;
 }
 .profileFoto > img {
+    border-radius: 50%;
     width: 100%;
     height: 100%;
 }
@@ -119,4 +128,52 @@ dropdown_foto_div > img {
 
 .dropdown:hover > .dropdown_content {
     display: block;
+}
+
+/* adaptive */
+@media all and (max-width: 1476px) {
+    .profileFoto {
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+    }
+}
+@media all and (max-width: 670px) {
+    .add_question_btn {
+        width: 150px;
+    }
+    .askIcon {
+        width: 15px;
+    }
+    .add_question_btn > p {
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 540px) {
+    .add_question_btn {
+        width: 50px;
+    }
+    .askIcon {
+        width: 20px;
+        margin: 0 auto;
+    }
+    .add_question_btn > p {
+        display: none;
+    }
+}
+@media all and (max-width: 500px) {
+    .register__btn {
+        width: 80px;
+    }
+    .register__btn > p {
+        display: none;
+    }
+}
+@media all and (max-width: 435px) {
+    .left__block {
+        width: 40%;
+    }
+    .left__block > img {
+        width: 60%;
+    }
 }
