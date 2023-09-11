@@ -7,8 +7,8 @@ import { useDispatch } from "react-redux";
 import { deletePost } from "../../../store/posts/postActions";
 
 const PostItem = ({ item }) => {
-    let navigate = useNavigate();
-    let dispatch = useDispatch();
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     return (
         <>
@@ -37,8 +37,7 @@ const PostItem = ({ item }) => {
                             <div className={styles.dropdown_content}>
                                 <a
                                     href="#"
-                                    onClick={() => dispatch(deletePost(item))}
-                                >
+                                    onClick={() => dispatch(deletePost(item))}>
                                     Delete
                                 </a>
                             </div>
@@ -57,20 +56,19 @@ const PostItem = ({ item }) => {
                                 className={styles.to__desc__btn}
                                 onClick={() =>
                                     navigate(`/post-details/${item.id}`)
-                                }
-                            >
+                                }>
                                 Learn answers
                             </button>
                         </div>
                         <div className={styles.couter__block}>
                             <img src={like_item} alt="" />
-                            <p>{item.likes}</p>
+
+                            <p>{item.likesCount}</p>
                             <div
                                 className={styles.comentsCountDiv}
                                 onClick={() =>
                                     navigate(`/post-details/${item.id}`)
-                                }
-                            >
+                                }>
                                 <img
                                     src={coment_Item}
                                     alt=""

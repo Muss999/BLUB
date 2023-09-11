@@ -2,7 +2,6 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { POSTS_API } from "../../helpers/consts";
 import { getTotalPages } from "../../helpers/functions";
-import { async } from "q";
 
 export const getPosts = createAsyncThunk(
     "posts/getPosts",
@@ -40,8 +39,8 @@ export const createPost = createAsyncThunk(
     }
 );
 
-export const addComments = createAsyncThunk(
-    "posts/addComments",
+export const editPost = createAsyncThunk(
+    "posts/editPost",
     async (newPostsObj, { dispatch }) => {
         let posts = await axios.patch(
             `${POSTS_API}/${newPostsObj.id}`,

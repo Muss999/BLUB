@@ -51,8 +51,7 @@ const SideBar = () => {
                         navigate("/");
                         dispatch(changeCategory({ category: "" }));
                         dispatch(getPosts());
-                    }}
-                >
+                    }}>
                     <img
                         src={questionIcon}
                         alt=""
@@ -62,8 +61,7 @@ const SideBar = () => {
                 </div>
                 <div
                     className={styles.sideBar_left_block}
-                    onClick={() => navigate("/categories-page")}
-                >
+                    onClick={() => navigate("/categories-page")}>
                     <img
                         src={categoriesIcon}
                         alt=""
@@ -72,7 +70,9 @@ const SideBar = () => {
                     <p>Categories</p>
                 </div>
 
-                <div className={styles.sideBar_left_block}>
+                <div
+                    className={styles.sideBar_left_block}
+                    onClick={() => navigate("/rankit")}>
                     <img
                         src={rankIcon}
                         alt=""

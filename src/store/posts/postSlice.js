@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { getOnePost, getPosts } from "./postActions";
-import { addComments } from "./postActions";
 
 const postsSlice = createSlice({
     name: "posts",

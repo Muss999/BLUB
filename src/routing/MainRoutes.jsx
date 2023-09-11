@@ -7,6 +7,7 @@ import PostCreatePage from "../pages/PostCreatePage";
 import PostDetailsPage from "../pages/PostDetailsPage";
 import GetPremiumPage from "../pages/GetPremiumPage";
 import CategoriesPage from "../pages/CategoriesPage";
+import RankitPage from "../pages/RankitPage";
 
 const MainRoutes = () => {
     const ROUTES = [
@@ -44,6 +45,11 @@ const MainRoutes = () => {
             id: 7,
             path: "/categories-page",
             element: <CategoriesPage />,
+        },
+        {
+            id: 8,
+            path: "/rankit",
+            element: <RankitPage />,
         },
     ];
 

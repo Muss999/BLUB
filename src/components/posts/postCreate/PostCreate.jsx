@@ -18,8 +18,9 @@ const PostCreate = () => {
         postQuestion: "",
         category: "",
         comments: [],
+        likes: [],
         description: "",
-        likes: 0,
+        likesCount: 0,
         commentsCount: 0,
     });
     return (
@@ -37,7 +38,7 @@ const PostCreate = () => {
                                     category: e.target.value,
                                 })
                             }
-                            maxlength="30"
+                            maxLength="30"
                         />
                         <input
                             type="text"
@@ -69,8 +70,7 @@ const PostCreate = () => {
                         onClick={() => {
                             navigate("/");
                             dispatch(createPost(postObj));
-                        }}
-                    >
+                        }}>
                         <img src={postImg} alt="" />
                         Add Post
                     </button>
