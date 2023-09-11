@@ -2,6 +2,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { POSTS_API } from "../../helpers/consts";
 import { getTotalPages } from "../../helpers/functions";
+import { async } from "q";
 
 export const getPosts = createAsyncThunk(
     "posts/getPosts",
@@ -48,5 +49,12 @@ export const addComments = createAsyncThunk(
         );
         dispatch(getPosts);
         return posts;
+    }
+);
+export const deletePost = createAsyncThunk(
+    "post/delete",
+    async (postObj, { dispatch }) => {
+        await axios.delete(`${POSTS_API}/${postObj.id}`);
+        dispatch(getPosts);
     }
 );
