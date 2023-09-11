@@ -1,27 +1,29 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getUser } from "../../../../store/user/userActions";
+import { getUsers } from "../../../../store/user/userActions";
 import { useDispatch, useSelector } from "react-redux";
 import styles from "./postAccout.module.css";
 
 const PostAccount = () => {
     let { id } = useParams();
     const dispatch = useDispatch();
-    const { user } = useSelector((state) => state.user);
+    const { users, loading } = useSelector((state) => state.user);
     const [userObj, setUserObj] = useState(null); // Используйте состояние для хранения userObj
+    console.log(loading);
 
     useEffect(() => {
-        const fetchUser = async () => {
-            await dispatch(getUser());
-            setTimeout(() => {
-                const foundUser = user.find((item) => item.id == id);
-                setUserObj(foundUser); // Устанавливаем userObj после завершения запроса
-            }, 2000);
-        };
+        if (loading) {
+            return alert("cgsj");
+        }
 
-        fetchUser();
-    }, []);
-    console.log(userObj);
+        if (users.length > 0 && userObj === null) {
+            const foundUser = users.find((item) => item.id == id);
+            setUserObj(foundUser);
+        }
+        console.log(users);
+
+        console.log(userObj);
+    }, [users, userObj, id]);
 
     return (
         <div>

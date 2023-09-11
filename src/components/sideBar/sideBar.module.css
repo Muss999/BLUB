@@ -48,5 +48,5 @@
     cursor: pointer;
     border-left: 10px solid #f48023;
     transition: 0.5s;
-    background-color: #f4812316;
+    background-color: rgba(244, 129, 35, 0.09);
 }

@@ -32,7 +32,7 @@ export const loginUser = createAsyncThunk(
     }
 );
 
-export const getUser = createAsyncThunk("user/getUser", async () => {
+export const getUsers = createAsyncThunk("user/getUser", async () => {
     let res = await axios.get(ACCOUNT_API);
     return res;
 });

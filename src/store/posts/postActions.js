@@ -29,3 +29,15 @@ export const createPost = createAsyncThunk(
         dispatch(getPosts);
     }
 );
+
+export const addComments = createAsyncThunk(
+    "posts/addComments",
+    async (newPostsObj, { dispatch }) => {
+        let posts = await axios.patch(
+            `${POSTS_API}/${newPostsObj.id}`,
+            newPostsObj
+        );
+        dispatch(getPosts);
+        return posts;
+    }
+);

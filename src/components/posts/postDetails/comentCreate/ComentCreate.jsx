@@ -1,24 +1,45 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
+import { useState } from "react";
 import style from "./comentCreate.module.css";
 import { useParams } from "react-router-dom";
-import { getPosts } from "../../../../store/posts/postActions";
+import { getPosts, addComments } from "../../../../store/posts/postActions";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { addComments } from "../../../../store/comments/commentsAction";
 
 const ComentCreate = () => {
     let { id } = useParams();
-
     const dispatch = useDispatch();
+    const navigate = useNavigate();
+    let user = JSON.parse(localStorage.getItem("user"));
+
+    const [comentsObj, setComentsObj] = useState({
+        user,
+        id: Date.now(),
+        comment: "",
+    });
 
     useEffect(() => {
         dispatch(getPosts());
     }, []);
 
     const { posts } = useSelector((state) => state.posts);
-    let postObj = posts.find((item) => item.id == id);
-    console.log(postObj);
-    const [newpostObj, setNewpostObj] = useState(postObj);
+    const postObj = posts.find((item) => item.id == id);
+
+    if (!postObj) {
+        return <div>error</div>; // Проверка наличия поста, так как он может быть не найден
+    }
+
+    // const [newpostObj, setNewpostObj] = useState(postObj);
+
+    const addCom = () => {
+        const updatedComments = [...postObj.comments, comentsObj]; // Создаем новый массив комментариев
+        const updatedPost = {
+            ...postObj,
+            comments: updatedComments,
+            commentsCount: updatedComments.length, // Обновляем commentsCount
+        };
+        dispatch(addComments(updatedPost));
+    };
 
     return (
         <div>
@@ -26,10 +47,13 @@ const ComentCreate = () => {
                 type="text"
                 maxLength="80"
                 onChange={(e) =>
-                    setNewpostObj({ newpostObj, comments: e.target.value })
+                    setComentsObj({
+                        ...comentsObj,
+                        comment: e.target.value,
+                    })
                 }
             />
-            <button onClick={() => addComments(newpostObj)}>add coment</button>
+            <button onClick={addCom}>add comment</button>
         </div>
     );
 };

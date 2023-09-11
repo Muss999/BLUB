@@ -10,9 +10,8 @@ const PostDetailsPage = () => {
             <SideBar />
             <div style={{ width: "100vw" }}>
                 <PostDetails />
-                <ComentCreate />
             </div>
-            {/* <PostAccount />  */}
+            <PostAccount />
         </div>
     );
 };

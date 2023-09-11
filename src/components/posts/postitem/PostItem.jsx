@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./postItem.module.css";
 import { useNavigate } from "react-router-dom";
+import coment_Item from "./img/Vector (2).svg";
+import like_item from "./img/Vector (1).svg";
 
 const PostItem = ({ item }) => {
     let navigate = useNavigate();
@@ -43,7 +45,14 @@ const PostItem = ({ item }) => {
                             </button>
                         </div>
                         <div className={styles.couter__block}>
+                            <img src={like_item} alt="" />
                             <p>{item.likes}</p>
+                            <img
+                                src={coment_Item}
+                                alt=""
+                                width="15px"
+                                height="15px"
+                            />
                             <p>{item.commentsCount}</p>
                         </div>
                     </div>

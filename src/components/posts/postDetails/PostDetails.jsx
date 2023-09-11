@@ -4,6 +4,8 @@ import { getPosts } from "../../../store/posts/postActions";
 import { useDispatch, useSelector } from "react-redux";
 import styles from "./postDetails.module.css";
 import { useNavigate } from "react-router-dom";
+import ComentCreate from "./comentCreate/ComentCreate";
+import CommentList from "./cometList/CommentList";
 
 const PostDetails = () => {
     let { id } = useParams();
@@ -62,6 +64,8 @@ const PostDetails = () => {
                     </div>
                 </div>
             </div>
+            <ComentCreate />
+            <CommentList postObj={postObj} />
         </>
     );
 };

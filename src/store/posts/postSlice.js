@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { getOnePost, getPosts } from "./postActions";
-import { act } from "react-dom/test-utils";
+import { addComments } from "./postActions";
 
 const postsSlice = createSlice({
     name: "posts",
@@ -48,6 +48,9 @@ const postsSlice = createSlice({
             .addCase(getOnePost.rejected, (state) => {
                 state.loading = false;
             });
+        // .addCase(addComments.fulfilled, (state, action) => {
+        //     state.
+        // });
     },
 });
 
