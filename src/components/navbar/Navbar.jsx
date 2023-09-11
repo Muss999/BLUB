@@ -27,14 +27,14 @@ const Navbar = () => {
         let premium = preUser.isPremium;
         return premium;
     }
-    console.log(user);
 
     return (
         <>
             <div className={styles.navBar}>
                 <div
                     className={styles.left__block}
-                    onClick={() => navigate("/")}>
+                    onClick={() => navigate("/")}
+                >
                     <img src={logo} width="40%" alt="" />
                 </div>
                 <div className={styles.right__block}>
@@ -43,7 +43,8 @@ const Navbar = () => {
                             {getPrem() && (
                                 <button
                                     className={styles.add_question_btn}
-                                    onClick={() => navigate("/post-create")}>
+                                    onClick={() => navigate("/post-create")}
+                                >
                                     <img
                                         src={askQuestion}
                                         alt=""
@@ -72,9 +73,8 @@ const Navbar = () => {
                                 <div className={styles.dropdown_content}>
                                     <a
                                         href="#"
-                                        onClick={() =>
-                                            navigate("/get-premium")
-                                        }>
+                                        onClick={() => navigate("/get-premium")}
+                                    >
                                         Get Premium!
                                     </a>
                                     <a href="#" onClick={() => logout()}>
@@ -87,7 +87,8 @@ const Navbar = () => {
                         <>
                             <button
                                 className={styles.register__btn}
-                                onClick={() => navigate("/register")}>
+                                onClick={() => navigate("/register")}
+                            >
                                 <img
                                     src={userPluce}
                                     alt=""
@@ -97,7 +98,8 @@ const Navbar = () => {
                             </button>
                             <button
                                 className={styles.login__btn}
-                                onClick={() => navigate("/login")}>
+                                onClick={() => navigate("/login")}
+                            >
                                 <p>Login</p>
                             </button>
                         </>

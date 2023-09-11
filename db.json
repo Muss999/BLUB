@@ -1,0 +1,572 @@
+{
+  "users": [
+    {
+      "username": "Musi",
+      "password": "123",
+      "avatarImg": "https://i.imgur.com/ofet0N3.png",
+      "subscribers": 0,
+      "isPremium": false,
+      "id": 1
+    },
+    {
+      "username": "Адахан",
+      "password": "123",
+      "avatarImg": "https://aniyuki.com/wp-content/uploads/2023/04/aniyuki-oshi-no-ko-avatar-6-1536x1536.jpg",
+      "subscribers": 0,
+      "isPremium": false,
+      "id": 2
+    },
+    {
+      "username": "Elmar",
+      "password": "123",
+      "avatarImg": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg",
+      "subscribers": 0,
+      "isPremium": false,
+      "id": 3
+    },
+    {
+      "username": "Arzy",
+      "password": "123",
+      "avatarImg": "https://anime-fans.ru/wp-content/uploads/2023/02/Anime-avatarki-dlya-sotsialnyh-setej_001.jpg",
+      "subscribers": 0,
+      "isPremium": false,
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "Буду?",
+      "category": "111",
+      "comments": [],
+      "description": "Давайте обсудишем будущем.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 11111
+    },
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "т?",
+      "category": "1112",
+      "comments": [],
+      "description": "Давайтдущем.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 111121
+    },
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "Будущее IT: что ждет нас в ближайшие 5 лет?",
+      "category": "Технологиии",
+      "comments": [],
+      "description": "Давайте обсудим возможные технологические тренды и инновации, которые могут изменить наш мир в ближайшем будущем.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 1
+    },
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "Любимые книги и их влияние на вас?",
+      "category": "Культура",
+      "comments": [],
+      "description": "Поделитесь своими любимыми книгами и объясните, как их прочтение повлияло на ваши мысли и чувства.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 2
+    },
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "Необычные места в последнем путешествии?",
+      "category": "Путешествия",
+      "comments": [],
+      "description": "Расскажите о местах, которые вы посетили, и поделитесь впечатлениями о том, что их делает особенными.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 3
+    },
+    {
+      "author": {
+        "username": "Адахан",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2023/04/aniyuki-oshi-no-ko-avatar-6-1536x1536.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Лучшие рецепты национальных блюд?",
+      "category": "Кулинария",
+      "comments": [],
+      "description": "Поделитесь своими любимыми рецептами национальных блюд и расскажите, почему они вас вдохновляют.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 4
+    },
+    {
+      "author": {
+        "username": "Адахан",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2023/04/aniyuki-oshi-no-ko-avatar-6-1536x1536.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Фильм, вдохновивший на обдумывание жизни?",
+      "category": "Фильмы и сериалы",
+      "comments": [
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436667037,
+          "comment": "Знакомьтесь джо Блек"
+        },
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": true
+          },
+          "id": 1694438939470,
+          "comment": "adf"
+        }
+      ],
+      "description": "Расскажите о фильме, который оставил у вас глубокие размышления и вдохновил на новые мысли о жизни.",
+      "likes": 0,
+      "commentsCount": 2,
+      "id": 5
+    },
+    {
+      "author": {
+        "username": "Адахан",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2023/04/aniyuki-oshi-no-ko-avatar-6-1536x1536.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Забота о физическом и психическом здоровье?",
+      "category": "Здоровье и фитнес",
+      "comments": [
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436678743,
+          "comment": "утром бегай и спина болеть не будет"
+        }
+      ],
+      "description": "Обсудим методы и практики, которые помогают вам поддерживать баланс между физическим и психическим здоровьем.",
+      "likes": 0,
+      "commentsCount": 1,
+      "id": 6
+    },
+    {
+      "author": {
+        "username": "Elmar",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Искусство, вдохновляющее на творчество?",
+      "category": "Искусство и творчество",
+      "comments": [
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436709747,
+          "comment": "по мне архитектура"
+        }
+      ],
+      "description": " Поделитесь произведениями искусства, которые стали источником вашей творческой вдохновения.",
+      "likes": 0,
+      "commentsCount": 1,
+      "id": 7
+    },
+    {
+      "author": {
+        "username": "Elmar",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Удивительные научные открытия последних лет?",
+      "category": " Наука",
+      "comments": [
+        {
+          "user": {
+            "username": "Arzy",
+            "avatarImg": "https://anime-fans.ru/wp-content/uploads/2023/02/Anime-avatarki-dlya-sotsialnyh-setej_001.jpg",
+            "isPremium": true
+          },
+          "id": 1694436393922,
+          "comment": "открыли солнце"
+        },
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436641311,
+          "comment": "открыли сатурн"
+        },
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": true
+          },
+          "id": 1694443110567,
+          "comment": "adsf"
+        }
+      ],
+      "description": "Обсудим последние научные открытия и их важность для развития науки и технологий.",
+      "likes": 0,
+      "commentsCount": 3,
+      "id": 8
+    },
+    {
+      "author": {
+        "username": "Elmar",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Любимый вид спорта и почему?",
+      "category": "Спорт",
+      "comments": [
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436697633,
+          "comment": "турники. будешь высоким"
+        }
+      ],
+      "description": "Расскажите, почему именно этот вид спорта вас увлекает и вдохновляет.",
+      "likes": 0,
+      "commentsCount": 1,
+      "id": 9
+    },
+    {
+      "author": {
+        "username": "Arzy",
+        "avatarImg": "https://anime-fans.ru/wp-content/uploads/2023/02/Anime-avatarki-dlya-sotsialnyh-setej_001.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Способы снятия стресса и релаксации?",
+      "category": "Психология",
+      "comments": [
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436740341,
+          "comment": "бег, тренировка"
+        }
+      ],
+      "description": "Поделитесь вашими методами и практиками, которые помогают вам расслабиться и справляться со стрессом.",
+      "likes": 0,
+      "commentsCount": 1,
+      "id": 10
+    },
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "Будущее IT: что ждет нас в ближайшие 5 лет?",
+      "category": "Технологиии",
+      "comments": [],
+      "description": "Давайте обсудим возможные технологические тренды и инновации, которые могут изменить наш мир в ближайшем будущем.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 11
+    },
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "Любимые книги и их влияние на вас?",
+      "category": "Культура",
+      "comments": [],
+      "description": "Поделитесь своими любимыми книгами и объясните, как их прочтение повлияло на ваши мысли и чувства.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 12
+    },
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "Необычные места в последнем путешествии?",
+      "category": "Путешествия",
+      "comments": [],
+      "description": "Расскажите о местах, которые вы посетили, и поделитесь впечатлениями о том, что их делает особенными.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 13
+    },
+    {
+      "author": {
+        "username": "Адахан",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2023/04/aniyuki-oshi-no-ko-avatar-6-1536x1536.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Лучшие рецепты национальных блюд?",
+      "category": "Кулинария",
+      "comments": [],
+      "description": "Поделитесь своими любимыми рецептами национальных блюд и расскажите, почему они вас вдохновляют.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 14
+    },
+    {
+      "author": {
+        "username": "Адахан",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2023/04/aniyuki-oshi-no-ko-avatar-6-1536x1536.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Фильм, вдохновивший на обдумывание жизни?",
+      "category": "Фильмы и сериалы",
+      "comments": [
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436667037,
+          "comment": "Знакомьтесь джо Блек"
+        }
+      ],
+      "description": "Расскажите о фильме, который оставил у вас глубокие размышления и вдохновил на новые мысли о жизни.",
+      "likes": 0,
+      "commentsCount": 1,
+      "id": 15
+    },
+    {
+      "author": {
+        "username": "Адахан",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2023/04/aniyuki-oshi-no-ko-avatar-6-1536x1536.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Забота о физическом и психическом здоровье?",
+      "category": "Здоровье и фитнес",
+      "comments": [
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436678743,
+          "comment": "утром бегай и спина болеть не будет"
+        }
+      ],
+      "description": "Обсудим методы и практики, которые помогают вам поддерживать баланс между физическим и психическим здоровьем.",
+      "likes": 0,
+      "commentsCount": 1,
+      "id": 16
+    },
+    {
+      "author": {
+        "username": "Elmar",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Искусство, вдохновляющее на творчество?",
+      "category": "Искусство и творчество",
+      "comments": [
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436709747,
+          "comment": "по мне архитектура"
+        }
+      ],
+      "description": " Поделитесь произведениями искусства, которые стали источником вашей творческой вдохновения.",
+      "likes": 0,
+      "commentsCount": 1,
+      "id": 17
+    },
+    {
+      "author": {
+        "username": "Elmar",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Удивительные научные открытия последних лет?",
+      "category": " Наука",
+      "comments": [
+        {
+          "user": {
+            "username": "Arzy",
+            "avatarImg": "https://anime-fans.ru/wp-content/uploads/2023/02/Anime-avatarki-dlya-sotsialnyh-setej_001.jpg",
+            "isPremium": true
+          },
+          "id": 1694436393922,
+          "comment": "открыли солнце"
+        },
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436641311,
+          "comment": "открыли сатурн"
+        }
+      ],
+      "description": "Обсудим последние научные открытия и их важность для развития науки и технологий.",
+      "likes": 0,
+      "commentsCount": 2,
+      "id": 18
+    },
+    {
+      "author": {
+        "username": "Elmar",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Любимый вид спорта и почему?",
+      "category": "Спорт",
+      "comments": [
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436697633,
+          "comment": "турники. будешь высоким"
+        }
+      ],
+      "description": "Расскажите, почему именно этот вид спорта вас увлекает и вдохновляет.",
+      "likes": 0,
+      "commentsCount": 1,
+      "id": 19
+    },
+    {
+      "author": {
+        "username": "Arzy",
+        "avatarImg": "https://anime-fans.ru/wp-content/uploads/2023/02/Anime-avatarki-dlya-sotsialnyh-setej_001.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Способы снятия стресса и релаксации?",
+      "category": "Психология",
+      "comments": [
+        {
+          "user": {
+            "username": "Musi",
+            "avatarImg": "https://i.imgur.com/ofet0N3.png",
+            "isPremium": false
+          },
+          "id": 1694436740341,
+          "comment": "бег, тренировка"
+        }
+      ],
+      "description": "Поделитесь вашими методами и практиками, которые помогают вам расслабиться и справляться со стрессом.",
+      "likes": 0,
+      "commentsCount": 1,
+      "id": 20
+    },
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "Будущее IT: что ждет нас в ближайшие 5 лет?",
+      "category": "Технологиии",
+      "comments": [],
+      "description": "Давайте обсудим возможные технологические тренды и инновации, которые могут изменить наш мир в ближайшем будущем.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 22
+    },
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "Любимые книги и их влияние на вас?",
+      "category": "Культура",
+      "comments": [],
+      "description": "Поделитесь своими любимыми книгами и объясните, как их прочтение повлияло на ваши мысли и чувства.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 23
+    },
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "Необычные места в последнем путешествии?",
+      "category": "Путешествия",
+      "comments": [],
+      "description": "Расскажите о местах, которые вы посетили, и поделитесь впечатлениями о том, что их делает особенными.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 24
+    },
+    {
+      "author": {
+        "username": "Адахан",
+        "avatarImg": "https://aniyuki.com/wp-content/uploads/2023/04/aniyuki-oshi-no-ko-avatar-6-1536x1536.jpg",
+        "isPremium": true
+      },
+      "postQuestion": "Лучшие рецепты национальных блюд?",
+      "category": "Кулинария",
+      "comments": [],
+      "description": "Поделитесь своими любимыми рецептами национальных блюд и расскажите, почему они вас вдохновляют.",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 25
+    },
+    {
+      "author": {
+        "username": "Musi",
+        "avatarImg": "https://i.imgur.com/ofet0N3.png",
+        "isPremium": true
+      },
+      "postQuestion": "adsf",
+      "category": "dfsa",
+      "comments": [],
+      "description": "asdf",
+      "likes": 0,
+      "commentsCount": 0,
+      "id": 26
+    }
+  ]
+}
