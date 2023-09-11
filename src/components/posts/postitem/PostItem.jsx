@@ -3,9 +3,12 @@ import styles from "./postItem.module.css";
 import { useNavigate } from "react-router-dom";
 import coment_Item from "./img/Vector (2).svg";
 import like_item from "./img/Vector (1).svg";
+import { useDispatch } from "react-redux";
+import { deletePost } from "../../../store/posts/postActions";
 
 const PostItem = ({ item }) => {
     let navigate = useNavigate();
+    let dispatch = useDispatch();
 
     return (
         <>
@@ -25,7 +28,20 @@ const PostItem = ({ item }) => {
                     </div>
 
                     <div className={styles.user__right__block}>
-                        <a href="">...</a>
+                        <div className={styles.dropdown}>
+                            <div className={styles.toDeg}>
+                                <div className={styles.dropdown_foto_div}>
+                                    <p>...</p>
+                                </div>
+                            </div>
+                            <div className={styles.dropdown_content}>
+                                <a
+                                    href="#"
+                                    onClick={() => dispatch(deletePost(item))}>
+                                    Delete
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -40,8 +56,7 @@ const PostItem = ({ item }) => {
                                 className={styles.to__desc__btn}
                                 onClick={() =>
                                     navigate(`/post-details/${item.id}`)
-                                }
-                            >
+                                }>
                                 Learn answers
                             </button>
                         </div>
