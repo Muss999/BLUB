@@ -7,7 +7,7 @@ const GetPremiumPage = () => {
         <>
             <div style={{ display: "flex" }}>
                 <SideBar />
-                <div style={{ marginLeft: "200px" }}>
+                <div>
                     <GetPremium />
                 </div>
             </div>

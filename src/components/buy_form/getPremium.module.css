@@ -5,10 +5,11 @@
     display: flex;
     justify-content: center;
     font-family: roboto;
+    margin-left: 200px;
 }
 .main_div_inner {
     width: 30vw;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,4 +44,74 @@
 }
 .div_buy:hover {
     cursor: pointer;
+}
+
+/* adaptive */
+@media all and (max-width: 1297px) {
+    .buy_h1 {
+        margin: 15px;
+        font-size: 36px;
+    }
+}
+@media all and (max-width: 1172px) {
+    .buy_h1 {
+        margin: 15px;
+        font-size: 34px;
+    }
+    .buy_desc {
+        line-height: 25px;
+        width: 90%;
+        font-size: 16px;
+    }
+    .main_div_inner {
+        width: 40vw;
+    }
+}
+@media all and (max-width: 868px) {
+    .buy_h1 {
+        margin: 12px;
+        font-size: 32px;
+    }
+    .main_div_inner {
+        width: 45vw;
+    }
+}
+@media all and (max-width: 540px) {
+    .buy_h1 {
+        margin: 10px;
+        font-size: 30px;
+    }
+    .main_div_inner {
+        width: 50vw;
+    }
+    .main_div {
+        margin-left: 160px;
+    }
+}
+@media all and (max-width: 429px) {
+    .buy_h1 {
+        margin: 10px;
+        font-size: 25px;
+    }
+    .main_div_inner {
+        width: 100%;
+    }
+    .main_div {
+        margin-left: 140px;
+        margin-top: 50px;
+    }
+}
+@media all and (max-width: 380px) {
+    .buy_h1 {
+        margin: 10px;
+        font-size: 20px;
+    }
+    .buy_desc {
+        line-height: 20px;
+        width: 90%;
+        font-size: 14px;
+    }
+    .main_div {
+        margin-left: 120px;
+    }
 }

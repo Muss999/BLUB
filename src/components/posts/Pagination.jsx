@@ -11,7 +11,6 @@ export default function PaginationControlled() {
 
     const handleChange = (event, value) => {
         dispatch(changePage({ page: value }));
-        console.log("sdfMUSI");
         dispatch(getPosts());
     };
 
